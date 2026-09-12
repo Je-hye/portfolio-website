@@ -25,7 +25,7 @@
     "Global Software Convergence · Junior": "경북대학교 컴퓨터학부 글로벌SW융합전공 · 3학년",
     "Enactus KNU 10th": "인액터스 10기",
     "Likelion 14th · Backend": "멋쟁이사자처럼 14기 · 백엔드",
-    "KNU Video Intelligence Lab · On Pause": "KNU Video Intelligence Lab · 잠시 쉬는 중",
+    "KNU Video Intelligence Lab · 3D Research · On Pause": "KNU Video Intelligence Lab · 3D 연구 · 잠시 쉬는 중",
     "[ 01 — POINT OF VIEW ]": "[ 01 — 관점 ]",
     "“I turn gaps into momentum, then use relentless logic to move past the limits.”": "“기록에서 문제를 찾고, 구조를 바꿔 더 나은 흐름을 만듭니다.”",
     "I found software after taking the long route through another major. That detour taught me to treat constraints as design material: understand the failure mode, build the workflow, measure what changed.": "의지만 믿기보다 목표를 이루기 쉬운 환경과 흐름을 설계합니다. 과정에서 발견한 문제와 판단을 기록하고, 배운 것을 다음 개선에 반영합니다. 반복되는 불편은 자동화하되 중요한 판단은 사람에게 남깁니다.",
