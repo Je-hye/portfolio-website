@@ -49,3 +49,7 @@ body[data-lang="ko"] .pin-role{line-height:1.6}
   .wordmark{font-size:.82rem}
   .menu-toggle{padding:.38rem .58rem;font-size:.64rem}
 }
+
+@media(min-width:901px){
+  .pin-photo{height:660px}
+}
