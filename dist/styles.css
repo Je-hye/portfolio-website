@@ -36,3 +36,16 @@ body[data-lang="ko"] .pin-role{line-height:1.6}
 .portrait-stage{transition:transform .15s}
 .portrait-stage:is(:hover,:focus-visible,.is-interacting) .portrait-card{box-shadow:0 30px 90px rgba(0,0,0,.5)}
 .portrait-stage:is(:hover,:focus-visible,.is-interacting) .portrait-card img{filter:saturate(.72) contrast(1.05)}
+
+@media(max-width:600px){
+  .site-header{padding:14px 4vw}
+  .wordmark{font-size:.9rem;letter-spacing:-.05em}
+  .menu-toggle{padding:.42rem .65rem;font-size:.68rem}
+  .site-header nav{top:54px;left:4vw;right:4vw;gap:1rem;padding:1rem;border-radius:14px}
+  .site-header nav a{font-size:.72rem}
+}
+
+@media(max-width:360px){
+  .wordmark{font-size:.82rem}
+  .menu-toggle{padding:.38rem .58rem;font-size:.64rem}
+}
