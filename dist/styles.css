@@ -17,6 +17,7 @@ footer{padding:10vw 5vw 2rem;background:var(--acid);color:var(--ink)}footer .sec
 body[data-lang="ko"] .hero h1{font-size:clamp(3.6rem,6.8vw,7.1rem);line-height:.94;letter-spacing:-.065em}
 body[data-lang="ko"] .hero-copy,body[data-lang="ko"] .pin p,body[data-lang="ko"] .research-details>p,body[data-lang="ko"] .principles p,body[data-lang="ko"] .story-copy>p:last-child{line-height:1.75}
 body[data-lang="ko"] .pin-role{line-height:1.6}
+body[data-lang="ko"] .marquee{font-family:"Noto Sans KR",var(--sans);font-weight:600;letter-spacing:-.025em}
 @media(max-width:900px){body[data-lang="ko"] .hero h1{font-size:clamp(3.5rem,12vw,6.3rem);line-height:.97}body[data-lang="ko"] .section-heading h2,body[data-lang="ko"] .story h2{line-height:1.02}body[data-lang="ko"] .pin-grid{columns:1}body[data-lang="ko"] .pin-photo{height:520px}}
 @media(max-width:600px){body[data-lang="ko"] .hero{min-height:auto;padding-bottom:7rem}body[data-lang="ko"] .hero h1{font-size:clamp(3rem,13.5vw,4.6rem);line-height:1;letter-spacing:-.06em}body[data-lang="ko"] .hero-copy{font-size:1rem}body[data-lang="ko"] .section-heading h2,body[data-lang="ko"] .research-card h2,body[data-lang="ko"] .story h2,body[data-lang="ko"] footer h2{font-size:clamp(2.7rem,12vw,4rem);line-height:1.03}body[data-lang="ko"] .pin h3{margin-top:2.4rem}body[data-lang="ko"] .research-card{min-height:540px}body[data-lang="ko"] .principles article{min-height:auto}body[data-lang="ko"] .principles h3{margin-top:2.5rem}body[data-lang="ko"] .timeline article{padding-left:2rem}}
 
