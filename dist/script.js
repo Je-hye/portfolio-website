@@ -3,20 +3,47 @@ const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) return;
     entry.target.classList.add("visible");
-    const count = entry.target.querySelector("[data-count]");
-    if (count && !reduceMotion) {
-      const target = Number(count.dataset.count);
-      let value = 0;
-      const timer = setInterval(() => {
-        value += 1;
-        count.textContent = value;
-        if (value >= target) clearInterval(timer);
-      }, 14);
-    }
     observer.unobserve(entry.target);
   });
 }, { threshold: 0.12 });
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+const count = document.querySelector("[data-count]");
+if (count) {
+  const target = Number(count.dataset.count);
+  const countContainer = count.closest("article") || count;
+  let animationFrame;
+  const renderCount = (value) => { count.textContent = String(Math.round(value)); };
+  const playCount = () => {
+    cancelAnimationFrame(animationFrame);
+    if (reduceMotion) {
+      renderCount(target);
+      return;
+    }
+    const duration = 1650;
+    const startedAt = performance.now();
+    renderCount(0);
+    const tick = (now) => {
+      const progress = Math.min(1, (now - startedAt) / duration);
+      const eased = 1 - Math.pow(1 - progress, 4);
+      renderCount(target * eased);
+      if (progress < 1) animationFrame = requestAnimationFrame(tick);
+    };
+    animationFrame = requestAnimationFrame(tick);
+  };
+  const countObserver = new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting && entry.intersectionRatio >= .55) {
+      if (countContainer.dataset.countState !== "playing") {
+        countContainer.dataset.countState = "playing";
+        playCount();
+      }
+    } else if (!entry.isIntersecting) {
+      countContainer.dataset.countState = "idle";
+      if (!reduceMotion) renderCount(0);
+    }
+  }, { threshold: [0, .55] });
+  countObserver.observe(countContainer);
+}
 
 const menu = document.querySelector(".menu-toggle");
 const nav = document.querySelector("nav");
