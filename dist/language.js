@@ -14,7 +14,7 @@
     "Contact": "연락처",
     "Menu": "메뉴",
     "AI-native backend / systems engineer": "AI 기반 백엔드 · 시스템 엔지니어",
-    "I build systems": "마찰을",
+    "I build systems": "막힘을",
     "that turn": "흐름으로 바꾸는",
     "friction": "시스템을",
     "into flow.": "만듭니다.",
@@ -22,11 +22,13 @@
     "Explore selected work": "주요 프로젝트 보기",
     "Start a conversation": "연락하기",
     "Currently": "현재",
-    "Global Software Convergence · Junior": "글로벌SW융합전공 · 3학년",
+    "Global Software Convergence · Junior": "경북대학교 컴퓨터학부 글로벌SW융합전공 · 3학년",
+    "Enactus KNU 10th": "인액터스 10기",
     "Likelion 14th · Backend": "멋쟁이사자처럼 14기 · 백엔드",
+    "KNU Video Intelligence Lab · On Pause": "KNU Video Intelligence Lab · 잠시 쉬는 중",
     "[ 01 — POINT OF VIEW ]": "[ 01 — 관점 ]",
-    "“I turn gaps into momentum, then use relentless logic to move past the limits.”": "“결핍을 동력 삼아 스스로 길을 내고, 집요한 논리로 한계를 돌파합니다.”",
-    "I found software after taking the long route through another major. That detour taught me to treat constraints as design material: understand the failure mode, build the workflow, measure what changed.": "적성에 맞지 않던 전공을 돌아 코딩을 만났습니다. 그 우회는 제약을 설계의 재료로 바라보는 법을 가르쳐 주었습니다. 실패의 원인을 이해하고, 워크플로우를 만들고, 무엇이 달라졌는지 측정합니다.",
+    "“I turn gaps into momentum, then use relentless logic to move past the limits.”": "“기록에서 문제를 찾고, 구조를 바꿔 더 나은 흐름을 만듭니다.”",
+    "I found software after taking the long route through another major. That detour taught me to treat constraints as design material: understand the failure mode, build the workflow, measure what changed.": "의지만 믿기보다 목표를 이루기 쉬운 환경과 흐름을 설계합니다. 과정에서 발견한 문제와 판단을 기록하고, 배운 것을 다음 개선에 반영합니다. 반복되는 불편은 자동화하되 중요한 판단은 사람에게 남깁니다.",
     "#resilience": "#회복탄력성",
     "#technical-service": "#기술로문제해결",
     "#human-in-the-loop": "#사람중심AI",
@@ -57,8 +59,8 @@
     "Resolved a calendar day-count mismatch by deriving the true month length from a mid-range date.": "월 중간 날짜를 기준으로 실제 월 길이를 계산해 캘린더의 일수 불일치 문제를 해결했습니다.",
     "CONDITIONALLY ACCEPTED": "조건부 채택",
     "[ 03 — RESEARCH LENS ]": "[ 03 — 연구 관점 ]",
-    "Seeing the failure": "평균에 가려지기",
-    "before the average.": "전에 실패를 봅니다.",
+    "Seeing the failure": "평균에 가려진 실패를",
+    "before the average.": "먼저 발견합니다.",
     "Co-author · ACM SIGGRAPH Asia 2026": "공저자 · ACM SIGGRAPH Asia 2026",
     "video codecs": "비디오 코덱",
     "benchmarks": "벤치마크",
@@ -142,6 +144,7 @@
   menu.textContent = "메뉴";
   menu.setAttribute("aria-label", "메뉴 열기");
   document.querySelector(".portrait-card img").alt = "정은혜의 인물 사진";
+  document.querySelector(".portrait-stage").setAttribute("aria-label", "움직임에 반응하는 정은혜의 인물 사진");
   document.querySelector(".pin-photo img").alt = "시스템 다이어그램과 컴퓨팅 모듈이 겹쳐진 추상 에디토리얼 콜라주";
   document.querySelector("#systems-canvas").setAttribute("aria-label", "포인터와 터치의 힘에 반응하는 인터랙티브 3D 에이전트 네트워크");
 })();
