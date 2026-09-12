@@ -162,8 +162,27 @@
       </div>
     </section>
 
+    <section class="systems-field" aria-labelledby="field-title">
+      <canvas id="systems-canvas" aria-label="Interactive three-dimensional agent network responding to pointer and touch forces"></canvas>
+      <div class="field-vignette" aria-hidden="true"></div>
+      <div class="field-copy reveal">
+        <p class="section-index">[ 05 — LIVE SYSTEMS FIELD ]</p>
+        <h2 id="field-title">A system is a set<br>of <em>moving relations.</em></h2>
+        <p>This WebGL network runs in real time. Its nodes are held together by spring constraints, damped by friction, and disturbed by your pointer or touch.</p>
+        <div class="field-legend">
+          <span><i class="legend-node"></i> 36 autonomous nodes</span>
+          <span><i class="legend-line"></i> spring-linked topology</span>
+          <span><i class="legend-touch"></i> drag / touch to perturb</span>
+        </div>
+      </div>
+      <div class="field-readout" aria-hidden="true">
+        <span>WEBGL / LIVE</span>
+        <span id="field-energy">ENERGY 00.0</span>
+      </div>
+    </section>
+
     <section class="impact">
-      <p class="section-index reveal">[ 05 — FIELD NOTES / IMPACT ]</p>
+      <p class="section-index reveal">[ 06 — FIELD NOTES / IMPACT ]</p>
       <div class="impact-grid">
         <article class="impact-big reveal"><strong data-count="95">0</strong><span>%</span><p>target yield plan, up from 75%, through correlation analysis and Random Forest feature selection.</p></article>
         <article class="impact-card reveal"><strong>6h → 30–60m</strong><p>Time per curriculum unit for open-response science questions after introducing an AI-assisted workflow.</p></article>
@@ -174,7 +193,7 @@
 
     <section id="story" class="story">
       <div class="story-copy reveal">
-        <p class="section-index">[ 06 — TRAJECTORY ]</p>
+        <p class="section-index">[ 07 — TRAJECTORY ]</p>
         <h2>The long route<br>became the edge.</h2>
         <p>I moved from Polymer Science & Engineering into Computer Science after discovering the kind of work that makes me lose track of time. A hackathon later became a restorative turning point: I returned to code by shipping under pressure, then kept building systems that remove friction for other people.</p>
       </div>
@@ -188,13 +207,13 @@
     </section>
 
     <section class="toolbox">
-      <p class="section-index reveal">[ 07 — TOOLBOX ]</p>
+      <p class="section-index reveal">[ 08 — TOOLBOX ]</p>
       <div class="marquee"><div>Python · Java · C/C++ · JavaScript · TypeScript · Spring Boot · FastAPI · React · Next.js · LangGraph · PostgreSQL · Docker · Claude API · GitHub ·</div></div>
     </section>
   </main>
 
   <footer id="contact">
-    <p class="section-index">[ 08 — OPEN CHANNEL ]</p>
+    <p class="section-index">[ 09 — OPEN CHANNEL ]</p>
     <h2>Let’s make the<br><em>complex feel clear.</em></h2>
     <div class="footer-links">
       <a href="mailto:mgs10204@gmail.com">Email ↗</a>
@@ -205,5 +224,6 @@
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>BUILT WITH CURIOSITY + SYSTEMS THINKING</span></div>
   </footer>
   <script src="./script.js"></script>
+  <script src="./webgl-field.js"></script>
 </body>
 </html>
