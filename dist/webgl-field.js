@@ -183,7 +183,7 @@
     if (frame % 10 === 0) {
       const energy = nodes.reduce((sum, node) => sum + Math.hypot(...node.v), 0) * 10;
       const readout = document.querySelector("#field-energy");
-      if (readout) readout.textContent = "ENERGY " + energy.toFixed(1).padStart(4, "0");
+      if (readout) readout.textContent = (document.documentElement.lang === "ko" ? "에너지 " : "ENERGY ") + energy.toFixed(1).padStart(4, "0");
     }
     requestAnimationFrame(draw);
   };
