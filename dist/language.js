@@ -65,7 +65,6 @@
     "paper benchmarks": "논문 평가 벤치마크",
     "diffusion restoration models": "확산 기반 복원 모델",
     "I analyzed 2D evaluation experiment logs, organized CRF items and diffusion evaluation metrics, and performed worst-case analysis and qualitative evaluation across AVC, HEVC, AV1, and VP9 codec environments.": "2D Evaluation 실험 로그를 분석하고 CRF 작성 항목과 Diffusion 평가 지표를 정리했으며, AVC·HEVC·AV1·VP9 코덱 환경에서 Worst Case 분석과 정성 평가를 수행했습니다.",
-    "View codec analysis on GitHub ↗": "GitHub에서 코덱 분석 보기 ↗",
     "[ 04 — OPERATING PHILOSOPHY ]": "[ 04 — 개발 철학 ]",
     "AI-native, never": "AI-native, 판단까지",
     "judgment-free.": "맡기지는 않습니다.",
