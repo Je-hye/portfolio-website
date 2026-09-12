@@ -90,7 +90,7 @@
     "ENERGY 00.0": "에너지 00.0",
     "[ 06 — AI & CODING LESSONS ]": "[ 06 — AI·코딩 수업 ]",
     "Coding Lesson": "코딩 수업",
-    "DSA 2025 · Masan Yongma High School": "DSA 2025 · 마산용마고등학교",
+    "Masan Yongma High School · 2025": "마산용마고등학교 · 2025",
     "Worked as an assistant instructor, supporting students during hands-on coding activities.": "보조교사로 참여해 학생들의 실습 중심 코딩 활동을 지원했습니다.",
     "AI Lesson": "AI 수업",
     "Union Science Academy · 5-week course": "유니온 과학학원 · 5주 과정",
