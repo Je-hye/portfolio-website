@@ -62,7 +62,7 @@
     "Log Analysis & Evaluation": "로그 분석 및 평가",
     "Co-author · ACM SIGGRAPH Asia 2026": "공저자 · ACM SIGGRAPH Asia 2026",
     "video codecs": "비디오 코덱",
-    "benchmarks": "벤치마크",
+    "primary benchmark": "주요 벤치마크",
     "diffusion restoration models": "확산 기반 복원 모델",
     "I analyzed 2D evaluation experiment logs, organized CRF items and diffusion evaluation metrics, and performed worst-case analysis and result validation for the 2D Diff → 3D workflow.": "2D Evaluation 실험 로그를 분석하고, CRF 작성 항목과 Diffusion 평가 지표를 정리했으며, 2D Diff → 3D 과정의 Worst Case 분석 및 결과 검증을 수행했습니다.",
     "View codec analysis on GitHub ↗": "GitHub에서 코덱 분석 보기 ↗",
