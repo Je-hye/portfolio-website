@@ -155,7 +155,8 @@
     if (!reduced) update(dt);
     rotation += reduced ? 0 : dt * .11;
     const c = Math.cos(rotation), s = Math.sin(rotation);
-    view.set([c,0,-s,0, s*.08,.996,c*.08,0, s,-.08,c,0, 1.15,0,-5.4,1]);
+    const sceneOffsetX = innerWidth < 900 ? 1.15 : 1.45;
+    view.set([c,0,-s,0, s*.08,.996,c*.08,0, s,-.08,c,0, sceneOffsetX,0,-5.4,1]);
     gl.clearColor(.012,.02,.04,1);
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.enable(gl.BLEND);
