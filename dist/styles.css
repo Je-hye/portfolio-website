@@ -51,6 +51,9 @@ body[data-lang="ko"] .marquee{font-family:"Noto Sans KR",var(--sans);font-weight
   .menu-toggle{padding:.38rem .58rem;font-size:.64rem}
 }
 
+.pin-link{display:inline-block;margin-top:1.5rem;font:500 .72rem var(--mono);text-transform:uppercase;color:var(--acid)}
+.pin-codec{background:linear-gradient(145deg,#171d29,#252f42)}
+
 @media(min-width:901px){
   .pin-photo{height:660px}
   .philosophy .section-heading{grid-template-columns:minmax(230px,.42fr) 1.58fr}
