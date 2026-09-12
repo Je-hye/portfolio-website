@@ -55,6 +55,7 @@ body[data-lang="ko"] .pin-role{line-height:1.6}
   .philosophy .section-heading{grid-template-columns:minmax(230px,.42fr) 1.58fr}
   .philosophy .section-heading .section-index{white-space:nowrap}
   .philosophy .section-heading h2{grid-column:2;white-space:nowrap;font-size:clamp(3rem,5.6vw,6rem)}
+  body[data-lang="ko"] .philosophy .section-heading h2{min-width:0;white-space:normal;font-size:clamp(2.8rem,4.7vw,5.1rem);line-height:1.02}
   .manifesto{grid-template-columns:minmax(180px,.3fr) 1.4fr .8fr}
   .manifesto .section-index{white-space:nowrap}
 }
