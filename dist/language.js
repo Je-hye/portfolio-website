@@ -21,7 +21,7 @@
     "Explore selected work": "주요 프로젝트 보기",
     "Start a conversation": "연락하기",
     "Currently": "현재",
-    "Global Software Convergence · Junior": "경북대학교 컴퓨터학부 글로벌SW융합전공 · 3학년",
+    "Kyungpook National University · Global Software Convergence · Junior": "경북대학교 컴퓨터학부 글로벌SW융합전공 · 3학년",
     "Enactus KNU 10th": "인액터스 10기",
     "Likelion 14th · Backend": "멋쟁이사자처럼 14기 · 백엔드",
     "KNU Video Intelligence Lab · 3D Research · On Pause": "KNU Video Intelligence Lab · 3D 연구 · 잠시 쉬는 중",
