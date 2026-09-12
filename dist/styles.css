@@ -32,3 +32,7 @@ body[data-lang="ko"] .pin-role{line-height:1.6}
   .research-details>p{margin-top:1.5rem}
   .research-details>.text-link{display:inline-block;margin-top:1rem}
 }
+
+.portrait-stage{transition:transform .15s}
+.portrait-stage:is(:hover,:focus-visible,.is-interacting) .portrait-card{box-shadow:0 30px 90px rgba(0,0,0,.5)}
+.portrait-stage:is(:hover,:focus-visible,.is-interacting) .portrait-card img{filter:saturate(.72) contrast(1.05)}
