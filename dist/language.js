@@ -89,7 +89,6 @@
     "WEBGL / LIVE": "WEBGL / 실시간",
     "ENERGY 00.0": "에너지 00.0",
     "[ 06 — FIELD NOTES / IMPACT ]": "[ 06 — 현장 기록 / 성과 ]",
-    "target yield plan, up from 75%, through correlation analysis and Random Forest feature selection.": "상관관계 분석과 Random Forest 핵심 피처 선별을 통해 수율 75%에서 95%로의 개선 방안을 도출했습니다.",
     "6h → 30–60m": "6시간 → 30–60분",
     "Time per curriculum unit for open-response science questions after introducing an AI-assisted workflow.": "AI 보조 워크플로우를 도입해 서술형 과학 문항의 단원별 제작 시간을 단축했습니다.",
     "9 agents": "9개 역할",
