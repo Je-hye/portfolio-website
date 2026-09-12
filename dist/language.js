@@ -59,7 +59,7 @@
     "CONDITIONALLY ACCEPTED": "조건부 채택",
     "[ 03 — RESEARCH EXPERIENCE ]": "[ 03 — 연구 경험 ]",
     "Restoration Experiment": "복원 모델 실험",
-    "Log Analysis & Evaluation": "로그 분석 및 평가",
+    "Log Analysis & Qualitative Evaluation": "로그 분석 및 정성 평가",
     "Co-author · ACM SIGGRAPH Asia 2026": "공저자 · ACM SIGGRAPH Asia 2026",
     "video codecs": "비디오 코덱",
     "paper benchmarks": "논문 평가 벤치마크",
