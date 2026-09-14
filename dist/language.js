@@ -130,7 +130,7 @@
     "Email ↗": "이메일 ↗",
     "Notes ↗": "블로그 ↗",
     "EUNHYE JEONG © 2026": "정은혜 © 2026",
-    "BUILT WITH CURIOSITY + SYSTEMS THINKING": "호기심과 시스템적 사고로 만들었습니다"
+    "DAEGU, SOUTH KOREA": "대한민국 대구"
   }));
 
   document.documentElement.lang = "ko";

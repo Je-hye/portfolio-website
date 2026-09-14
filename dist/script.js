@@ -58,6 +58,21 @@ nav.querySelectorAll("a").forEach((link) => link.addEventListener("click", () =>
   menu.textContent = menu.dataset.openLabel || "Menu";
 }));
 
+document.querySelectorAll(".impact-card").forEach((card) => {
+  card.addEventListener("pointermove", (event) => {
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty("--card-x", `${event.clientX - rect.left}px`);
+    card.style.setProperty("--card-y", `${event.clientY - rect.top}px`);
+  });
+  card.addEventListener("click", () => card.classList.toggle("is-active"));
+  card.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      card.classList.toggle("is-active");
+    }
+  });
+});
+
 if (!reduceMotion && matchMedia("(pointer:fine)").matches) {
   const orb = document.querySelector(".cursor-orb");
   addEventListener("pointermove", (event) => {

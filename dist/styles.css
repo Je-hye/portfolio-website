@@ -56,6 +56,15 @@ body[data-lang="ko"] .marquee{font-family:"Noto Sans KR",var(--sans);font-weight
 .pin-link{display:inline-block;margin-top:1.5rem;font:500 .72rem var(--mono);text-transform:uppercase;color:var(--acid)}
 .pin-codec{background:linear-gradient(145deg,#171d29,#252f42)}
 
+.impact-card{position:relative;isolation:isolate;transition:transform .3s ease,box-shadow .3s ease;outline:none}
+.impact-card:before{content:"";position:absolute;inset:0;z-index:0;background:radial-gradient(440px circle at var(--card-x,50%) var(--card-y,50%),rgba(255,255,255,.2),transparent 65%);opacity:0;transition:opacity .3s ease;pointer-events:none}
+.impact-card>*{position:relative;z-index:1}
+.impact-card:is(:hover,:focus-visible,.is-active):before{opacity:1}
+.impact-card.visible:is(:hover,:focus-visible,.is-active){transform:translateY(-7px);box-shadow:0 18px 40px rgba(5,14,74,.3)}
+.impact-card:focus-visible{outline:2px solid var(--acid);outline-offset:-5px}
+@media(max-width:600px){.impact-card.visible.is-active{transform:translateY(-4px)}}
+@media(prefers-reduced-motion:reduce){.impact-card.visible:is(:hover,:focus-visible,.is-active){transform:none}}
+
 @media(min-width:901px){
   .pin-photo{height:660px}
   .philosophy .section-heading{grid-template-columns:minmax(230px,.42fr) 1.58fr}
