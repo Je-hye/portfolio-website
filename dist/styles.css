@@ -56,6 +56,16 @@ body[data-lang="ko"] .marquee{font-family:"Noto Sans KR",var(--sans);font-weight
 .pin-link{display:inline-block;margin-top:1.5rem;font:500 .72rem var(--mono);text-transform:uppercase;color:var(--acid)}
 .pin-codec{background:linear-gradient(145deg,#171d29,#252f42)}
 
+.workflow-case{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(2rem,6vw,6rem);margin-top:2rem;padding:clamp(2rem,4vw,4rem);border:1px solid var(--line);background:#111622}
+.workflow-case h3{font-size:clamp(2rem,4vw,4rem);line-height:1.08;letter-spacing:-.045em;margin:1.4rem 0}
+.workflow-case p:last-child{max-width:560px;color:#c4cad5}
+.workflow-case ul{list-style:none;margin:0;padding:0;align-self:center}
+.workflow-case li{padding:1.1rem 0;border-bottom:1px solid var(--line);font-size:1rem}
+.workflow-case li:first-child{border-top:1px solid var(--line)}
+.workflow-case code{font-family:var(--mono);color:var(--acid)}
+.story-link{display:inline-block;margin-top:1.4rem;padding-bottom:.35rem;border-bottom:1px solid var(--acid);color:var(--acid);font:500 .82rem/1.5 var(--mono)}
+@media(max-width:900px){.workflow-case{grid-template-columns:1fr}}
+
 .impact-card{position:relative;isolation:isolate;transition:transform .3s ease,box-shadow .3s ease;outline:none}
 .impact-card:before{content:"";position:absolute;inset:0;z-index:0;background:radial-gradient(440px circle at var(--card-x,50%) var(--card-y,50%),rgba(255,255,255,.2),transparent 65%);opacity:0;transition:opacity .3s ease;pointer-events:none}
 .impact-card>*{position:relative;z-index:1}

@@ -13,11 +13,11 @@
     "Story": "이야기",
     "Contact": "연락처",
     "Menu": "메뉴",
-    "AI-native backend / systems engineer": "AI 기반 백엔드 · 시스템 엔지니어",
+    "Backend · AI Systems engineer": "백엔드 · AI 시스템 엔지니어",
     "I turn complex problems": "복잡한 문제를 구조화하고,",
     "into": "작동하는",
     "working systems.": "시스템으로 구현합니다.",
-    "From personal developer tooling to production automation for real organizations, I design multi-agent systems where human judgment stays in the loop.": "개인 개발 도구부터 실제 조직을 위한 프로덕션 자동화까지, 사람의 판단이 중심에 남는 멀티에이전트 시스템을 설계합니다.",
+    "I use AI to improve development workflows and systems. With experience in vision research, I am interested in connecting AI technology to real services and platforms.": "AI를 활용해 개발 워크플로우와 시스템을 개선하는 백엔드·AI 시스템 엔지니어입니다. Vision 연구 경험을 바탕으로 AI 기술을 실제 서비스와 플랫폼에 연결하는 데 관심이 있습니다.",
     "Explore selected work": "주요 프로젝트 보기",
     "Start a conversation": "연락하기",
     "Currently": "현재",
@@ -82,6 +82,14 @@
     "LLM output is treated as fallible input. Defensive parsing, tests, and cross-tool verification are part of the architecture.": "LLM의 출력은 오류가 있을 수 있는 입력으로 다룹니다. 방어적 파싱, 테스트, 여러 도구를 통한 교차 검증까지 아키텍처의 일부입니다.",
     "Keep judgment human.": "판단은 사람에게 남깁니다.",
     "My prompts require evidence and clarification instead of fabricated certainty. The system accelerates decisions; it does not own them.": "근거 없는 확신보다 증거와 확인을 요구하도록 프롬프트를 설계합니다. 시스템은 의사결정을 가속하지만 판단의 주체가 되지는 않습니다.",
+    "AI-AGENT DEVELOPMENT WORKFLOW": "AI 에이전트 기반 개발 워크플로우",
+    "Less context upkeep.": "반복 문서화는 줄이고,",
+    "More room to build.": "설계와 구현에 집중합니다.",
+    "I built an AI-agent development workflow to reduce repetitive documentation and context-maintenance work, leaving more time for design and implementation.": "반복적인 문서화 작업과 프로젝트 컨텍스트 유지 부담을 줄이고, 설계와 구현에 집중할 수 있는 AI 에이전트 기반 개발 환경을 구축했습니다.",
+    "Project context managed through": "프로젝트 컨텍스트 관리 —",
+    "Automated retrospectives and work logs": "회고 및 작업 기록 자동 생성",
+    "Automated documentation of code-analysis results": "코드 분석 결과 문서화 자동화",
+    "Automated first drafts of project documents": "프로젝트 문서 초안 생성 자동화",
     "SPEC": "명세",
     "IMPLEMENT": "구현",
     "REVIEW": "리뷰",
@@ -115,7 +123,8 @@
     "[ 07 — TRAJECTORY ]": "[ 07 — 여정 ]",
     "The long route": "돌아온 길이",
     "became the edge.": "나만의 강점이 되었습니다.",
-    "I moved from Polymer Science & Engineering into Computer Science after discovering the kind of work that makes me lose track of time. A hackathon later became a restorative turning point: I returned to code by shipping under pressure, then kept building systems that remove friction for other people.": "시간 가는 줄 모르고 몰입하게 되는 일을 발견한 뒤 고분자공학과에서 컴퓨터학부로 전공을 바꿨습니다. 힘들었던 시기에 스스로를 던진 해커톤은 다시 코드를 손에 쥐게 한 회복의 변곡점이 되었고, 그 뒤로 다른 사람의 마찰을 줄이는 시스템을 계속 만들고 있습니다.",
+    "I moved from Polymer Science & Engineering into Computer Science after discovering the kind of work that makes me lose track of time. A hackathon later became a turning point that brought me back to coding, and I have since explored my interests and grown as a developer through different projects.": "시간 가는 줄 모르고 몰입하게 되는 일을 발견한 뒤 고분자공학과에서 컴퓨터학부로 전공을 바꿨습니다. 힘들었던 시기에 참여한 해커톤은 다시 코드를 시작하게 된 전환점이었고, 이후 여러 프로젝트를 통해 관심 분야와 개발 역량을 넓혀가고 있습니다.",
+    "Read my story and development approach ↗": "성장 이야기와 개발에 대한 생각 읽기 ↗",
     "Polymer Science & Engineering": "고분자공학과",
     "Kyungpook National University": "경북대학교",
     "First Prize · Applied Python Data Analysis": "최우수상 · Python 활용 실무 데이터 분석",
@@ -126,8 +135,7 @@
     "Undergraduate Researcher": "학부연구생",
     "[ 08 — HOW I WORK ]": "[ 08 — 작업 방식 ]",
     "AI-assisted development · Agent workflows · Prompt design · Verification · Documentation · Automation ·": "AI 활용 개발 · 에이전트 워크플로우 · 프롬프트 설계 · 결과 검증 · 문서화 · 자동화 ·",
-    "[ 09 — CONTACT ]": "[ 09 — 연락처 ]",
-    "Email ↗": "이메일 ↗",
+    "[ 09 — OPEN CHANNELS ]": "[ 09 — 열린 채널 ]",
     "Notes ↗": "블로그 ↗",
     "EUNHYE JEONG © 2026": "정은혜 © 2026",
     "DAEGU, SOUTH KOREA": "대한민국 대구"
@@ -137,7 +145,7 @@
   document.body.dataset.lang = "ko";
   document.title = "정은혜 — AI 시스템 엔지니어";
   const description = document.querySelector('meta[name="description"]');
-  if (description) description.content = "멀티에이전트 워크플로우와 연구 도구, 실용적인 자동화 시스템을 설계하고 구축하는 정은혜의 포트폴리오입니다.";
+  if (description) description.content = "AI를 활용해 개발 워크플로우와 시스템을 개선하고, Vision 연구 경험을 실제 서비스와 플랫폼으로 연결하는 데 관심이 있는 정은혜의 포트폴리오입니다.";
 
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   let node;
