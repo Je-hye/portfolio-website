@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=1789913954">
+  <link rel="stylesheet" href="./styles.css?v=1789914544">
 </head>
 <body>
   <div class="cursor-orb" aria-hidden="true"></div>
@@ -135,7 +135,6 @@
             </div>
             <ul><li>Claude Agent SDK</li><li>Sub-agents</li><li>Cron</li><li>GitHub Actions</li></ul>
             <a class="pin-link" href="https://github.com/Je-hye/my-ai-agents" target="_blank" rel="noreferrer">View on GitHub ↗</a>
-            <a class="pin-link" href="https://github.com/Je-hye/my-agents-skills" target="_blank" rel="noreferrer">Blog-writing skill ↗</a>
           </div>
         </article>
 
@@ -165,29 +164,8 @@
           <a class="pin-link" href="https://github.com/Je-hye/knu-mla" target="_blank" rel="noreferrer">View on GitHub ↗</a>
         </article>
 
-        <article class="pin pin-codec reveal" tabindex="0">
-          <div class="pin-topline"><span>05</span><span>FEB 2026 · SOLO</span></div>
-          <h3>Video Codec Analysis Pipeline</h3>
-          <p class="pin-role">HEVC / VVC compression pipeline</p>
-          <p>A five-stage pipeline takes raw video through analysis, parallel encoding, metric calculation, and result visualization — comparing HEVC against next-gen VVC on compression efficiency (BD-Rate) and quality (PSNR) end to end.</p>
-          <div class="decision">
-            <span>SYSTEM DECISION</span>
-            <p>Threads can't truly parallelize CPU-bound encoding past Python's GIL, so I used ProcessPoolExecutor to spawn separate OS-level processes instead, letting the OS scheduler distribute jobs across CPU cores, then processed completed jobs asynchronously as they finished to cut idle time.</p>
-          </div>
-          <div class="decision">
-            <span>DATA DECISION</span>
-            <p>Profiled each clip's data characteristics first, then used that profile to set compression priority instead of applying uniform settings across the board.</p>
-          </div>
-          <div class="decision">
-            <span>SCOPE DECISION</span><span class="upgrade-tag">Self-upgraded</span>
-            <p>The comparison itself only needed BD-Rate and PSNR numbers. I added a fifth stage — automated result visualization — so the trade-off could be read at a glance instead of parsed from raw logs.</p>
-          </div>
-          <ul><li>Python</li><li>FFmpeg</li><li>VTM</li><li>BD-Rate</li><li>PSNR</li></ul>
-          <a class="pin-link" href="https://github.com/EunHye-03/video-codec-analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
-        </article>
-
         <article class="pin pin-acid reveal" tabindex="0">
-          <div class="pin-topline"><span>06</span><span>SKILL LIBRARY</span></div>
+          <div class="pin-topline"><span>05</span><span>SKILL LIBRARY</span></div>
           <h3>Custom Agent Skills</h3>
           <p class="pin-role">Reusable Claude Code skills</p>
           <p>Skills I built for myself and reuse across projects — not one-off prompts, but versioned, hardened tools with their own spec.</p>
@@ -207,6 +185,27 @@
           <a class="pin-link" href="https://github.com/Je-hye/my-agents-skills" target="_blank" rel="noreferrer">View skill library ↗</a>
         </article>
 
+        <article class="pin pin-codec reveal" tabindex="0">
+          <div class="pin-topline"><span>06</span><span>FEB 2026 · SOLO</span></div>
+          <h3>Video Codec Analysis Pipeline</h3>
+          <p class="pin-role">HEVC / VVC compression pipeline</p>
+          <p>A five-stage pipeline takes raw video through analysis, parallel encoding, metric calculation, and result visualization — comparing HEVC against next-gen VVC on compression efficiency (BD-Rate) and quality (PSNR) end to end.</p>
+          <div class="decision">
+            <span>SYSTEM DECISION</span>
+            <p>Threads can't truly parallelize CPU-bound encoding past Python's GIL, so I used ProcessPoolExecutor to spawn separate OS-level processes instead, letting the OS scheduler distribute jobs across CPU cores, then processed completed jobs asynchronously as they finished to cut idle time.</p>
+          </div>
+          <div class="decision">
+            <span>DATA DECISION</span>
+            <p>Profiled each clip's data characteristics first, then used that profile to set compression priority instead of applying uniform settings across the board.</p>
+          </div>
+          <div class="decision">
+            <span>SCOPE DECISION</span><span class="upgrade-tag">Self-upgraded</span>
+            <p>The comparison itself only needed BD-Rate and PSNR numbers. I added a fifth stage — automated result visualization — so the trade-off could be read at a glance instead of parsed from raw logs.</p>
+          </div>
+          <ul><li>Python</li><li>FFmpeg</li><li>VTM</li><li>BD-Rate</li><li>PSNR</li></ul>
+          <a class="pin-link" href="https://github.com/EunHye-03/video-codec-analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+
         <article class="pin pin-data reveal" tabindex="0">
           <div class="pin-topline"><span>07</span><span>AWARD · DATA</span></div>
           <h3>Semiconductor<br>Yield Analysis</h3>
@@ -222,12 +221,16 @@
     </section>
 
     <section id="research" class="research">
+      <p class="section-index research-section-label">[ 02 — RESEARCH EXPERIENCE ]</p>
       <div class="research-card reveal" data-tilt>
         <div class="chrome-badge">CONDITIONALLY ACCEPTED</div>
-        <p class="section-index">[ 02 — RESEARCH EXPERIENCE ]</p>
         <h2>Restoration Experiment<br>Log Analysis &amp; Qualitative Evaluation</h2>
         <p class="paper-title">CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction</p>
         <p class="venue">Co-author · ACM SIGGRAPH Asia 2026</p>
+        <div class="venue-badge">
+          <span class="venue-grade">S-Grade</span>
+          <p>Top-tier venue by the Korean Institute of Information Scientists and Engineers, where NVIDIA, Adobe, Google, and Disney researchers regularly present.</p>
+        </div>
       </div>
       <div class="research-details reveal">
         <ul class="research-tasks">
@@ -237,13 +240,9 @@
           <li>Worst-case analysis</li>
           <li>Qualitative evaluation</li>
         </ul>
-        <div class="venue-badge">
-          <span class="venue-grade">S-Grade</span>
-          <p>Top-tier venue by the Korean Institute of Information Scientists and Engineers, where NVIDIA, Adobe, Google, and Disney researchers regularly present.</p>
-        </div>
         <div class="decision">
           <span>ASSIGNED TASK</span>
-          <p>Working under my advisor's direction, I analyzed 2D evaluation experiment logs across all four codecs, reviewed CRF items and diffusion-model evaluation metrics, and selected and visualized worst-case results for the CODiff and DiQP restoration models across different QP conditions — running qualitative evaluation to see where restoration quality actually broke down. I also wrote a pipeline to auto-aggregate benchmark results, catching an anomalous log along the way.</p>
+          <p>I analyzed 2D evaluation experiment logs across all four codecs, reviewed CRF items and diffusion-model evaluation metrics, and selected and visualized worst-case results for the CODiff and DiQP restoration models across different QP conditions — running qualitative evaluation to see where restoration quality actually broke down. I also wrote a pipeline to auto-aggregate benchmark results, catching an anomalous log along the way.</p>
         </div>
         <div class="decision">
           <span>SELF-FOUND PROBLEM</span><span class="upgrade-tag">Self-upgraded</span>
@@ -331,8 +330,7 @@
       <div class="leadership-grid">
         <article class="reveal"><span>01</span><h3>Design the structure.</h3><p>I'm the type who needs a plan before starting anything, and I like doing things fast and thorough at once — systematically. Leading meant scaling that instinct across the whole team. So I started by redrawing the boundaries themselves — role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.</p></article>
         <article class="reveal"><span>02</span><h3>Understand the people.</h3><p>Structure alone wasn't enough. I learned to design for different motivations and skill levels on the team, not just for the workflow. I try to let people work in the areas they actually want to grow into, and split roles so the team grows together — not just around what needs to get done.</p></article>
-        <article class="reveal"><span>03</span><h3>Structure for people.</h3><p>I design structure so people can work comfortably, not the other way around. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed how I think about leading.</p></article>
-        <article class="reveal"><span>04</span><h3>Separate the tools.</h3><p>GitHub for code and PRs, Confluence for source-of-truth design docs, Jira for issues and tasks — kept deliberately non-overlapping, then bridged with a Confluence↔GitHub-docs sync workflow so the two copies never drift apart.</p></article>
+        <article class="reveal"><span>03</span><h3>Structure for people.</h3><p>I design structure so people can work comfortably, not the other way around. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed how I think about leading. Rebuilding Claude Teams from 8 owner-based personas into 3 activity-based ones is that shift, in practice.</p></article>
       </div>
     </section>
 
@@ -375,7 +373,7 @@
         <article class="impact-card impact-acid reveal" tabindex="0">
           <strong>AI Workflow Lesson</strong><span class="upgrade-tag">Self-upgraded</span>
           <span>Union Science Academy · 5-week instructor course</span>
-          <p>Designed a practice-led course around real academy materials and repeatable AI-assisted work. What started as a request to clean up lesson slides grew, on my own initiative, into a 9-role multi-agent blog-writing workflow for the academy.</p>
+          <p>Designed a practice-led course around real academy materials and repeatable AI-assisted work. On my own initiative, I built out a 9-role multi-agent blog-writing workflow for the academy.</p>
           <ul class="lesson-topics">
             <li>Task selection &amp; student data safety</li>
             <li>Academy standards &amp; workflow documentation</li>
@@ -404,8 +402,8 @@
     </div>
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
   </footer>
-  <script src="./script.js?v=1789913954"></script>
-  <script src="./webgl-field.js?v=1789913954"></script>
-  <script src="./language.js?v=1789913954"></script>
+  <script src="./script.js?v=1789914544"></script>
+  <script src="./webgl-field.js?v=1789914544"></script>
+  <script src="./language.js?v=1789914544"></script>
 </body>
 </html>

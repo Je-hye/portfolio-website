@@ -149,7 +149,7 @@
     "Tutored the Python-based course I'd earned an A+ in myself.": "A+를 받았던 파이썬 기반 과목의 튜터로 활동했습니다.",
     "AI Workflow Lesson": "AI 활용 레슨",
     "Union Science Academy · 5-week instructor course": "유니온 과학학원 · 강사 대상 5주 과정",
-    "Designed a practice-led course around real academy materials and repeatable AI-assisted work. What started as a request to clean up lesson slides grew, on my own initiative, into a 9-role multi-agent blog-writing workflow for the academy.": "실제 학원 자료를 바탕으로 반복 가능한 AI 활용 업무를 만드는 실습 중심 수업을 구성했습니다. 수업 슬라이드를 정리해달라는 요청에서 시작해, 스스로 범위를 넓혀 학원용 9개 역할 멀티에이전트 블로그 작성 워크플로우까지 만들었습니다.",
+    "Designed a practice-led course around real academy materials and repeatable AI-assisted work. On my own initiative, I built out a 9-role multi-agent blog-writing workflow for the academy.": "실제 학원 자료를 바탕으로 반복 가능한 AI 활용 업무를 만드는 실습 중심 수업을 구성했습니다. 스스로 범위를 넓혀 학원용 9개 역할 멀티에이전트 블로그 작성 워크플로우까지 만들었습니다.",
     "Task selection & student data safety": "AI 적용 업무 선별과 학생 개인정보 보호",
     "Academy standards & workflow documentation": "학원 기준과 업무 절차 문서화",
     "Prompt-to-skill design & testing": "프롬프트에서 AI 스킬 제작·테스트까지",
@@ -248,7 +248,7 @@
     "Built the case for transfer": "전과를 위한 근거를 쌓다",
     "Took a JavaScript course at the campus IT center, attended OpenLab and CS department seminars, and had repeated career chats with professors — while also mapping a backup plan (a microdegree, or a direct CS transfer route) in case the switch didn't go through.": "교내 IT교육센터 자바스크립트 수업을 듣고, OpenLab과 컴퓨터학부 특강에 참석했으며, 교수님들과 진로 상담을 여러 번 진행했습니다 — 동시에 전과가 안 될 경우를 대비해 마이크로디그리나 컴퓨터 전공 편입 같은 대안 경로도 함께 알아봤습니다.",
     "Currently extending the underlying dev-loop skill to split each role into its own tmux pane, so PM, Engineer, Reviewer, and QA run as visible parallel panes instead of one sequential thread.": "현재 dev-loop 스킬을 발전시켜 각 역할을 개별 tmux 창으로 분리하는 작업을 진행 중입니다 — PM, Engineer, Reviewer, QA가 순차적으로 하나씩이 아니라 눈에 보이는 병렬 창으로 동시에 돌아가도록요.",
-    "I design structure so people can work comfortably, not the other way around. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed how I think about leading.": "사람들이 편하게 일하기 위한 구조를 설계합니다. 팀이 실제로 일하는 방식을 지켜보고, 역할 페르소나를 담당자가 아니라 활동 중심으로 다시 짜면서 리더십에 대한 생각이 바뀌었습니다.",
+    "I design structure so people can work comfortably, not the other way around. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed how I think about leading. Rebuilding Claude Teams from 8 owner-based personas into 3 activity-based ones is that shift, in practice.": "사람들이 편하게 일하기 위한 구조를 설계합니다. 팀이 실제로 일하는 방식을 지켜보고, 역할 페르소나를 담당자가 아니라 활동 중심으로 다시 짜면서 리더십에 대한 생각이 바뀌었습니다. Claude Teams를 8개 담당자 기반 페르소나에서 3개 활동 기반 페르소나로 다시 짠 게 그 사례입니다.",
 
     "[ 06 — TRAJECTORY ]": "[ 06 — 여정 ]",
 
