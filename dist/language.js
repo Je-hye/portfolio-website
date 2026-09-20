@@ -17,6 +17,11 @@
     "I turn complex problems": "복잡한 문제를 구조화하고,",
     "into": "작동하는",
     "working systems.": "시스템으로 구현합니다.",
+    "I don't rely on": "의지에 기대지 않고,",
+    "willpower — I design": "시스템을 설계해서",
+    "systems.": "옳은 방향으로 흘러가게 합니다.",
+    "So the right thing happens anyway. I build the habits, workflows, and AI-agent harnesses that make follow-through automatic — not a matter of discipline.": "그래야 의지와 상관없이 옳은 방향으로 흘러갑니다. 실행이 의지가 아니라 구조에서 나오도록, 습관과 워크플로우와 AI 에이전트 하네스를 만듭니다.",
+    "I'm a planner by nature — MBTI tests always place me at a full 100% J. In my last year of high school, I didn't trust willpower alone to keep me studying, so I started a group chat with my tutoring classmates to share our study hours every day. I ended up studying 12–15 hours a day.": "저는 원래 계획부터 세우는 성격이라, MBTI 검사를 하면 J가 항상 100%로 나옵니다. 고3 때도 의지만으로는 공부 시간을 못 늘릴 것 같아서 과외 선생님께 부탁해 같이 수업 듣는 학생들과 매일 공부 시간을 공유하는 단톡방을 만들었습니다. 그 뒤로 하루 12~15시간씩 공부했습니다.",
     "I use AI to improve development workflows and systems. With experience in vision research, I am interested in connecting AI technology to real services and platforms.": "AI를 활용해 개발 워크플로우와 시스템을 개선하는 백엔드·AI 시스템 엔지니어입니다. Vision 연구 경험을 바탕으로 AI 기술을 실제 서비스와 플랫폼에 연결하는 데 관심이 있습니다.",
     "Explore selected work": "주요 프로젝트 보기",
     "Start a conversation": "연락하기",
@@ -138,7 +143,54 @@
     "[ 09 — OPEN CHANNELS ]": "[ 09 — 열린 채널 ]",
     "Notes ↗": "블로그 ↗",
     "EUNHYE JEONG © 2026": "정은혜 © 2026",
-    "DAEGU, SOUTH KOREA": "대한민국 대구"
+    "DAEGU, SOUTH KOREA": "대한민국 대구",
+
+    "[ 01 — SELECTED SYSTEMS ]": "[ 01 — 주요 시스템 ]",
+    "PM · ONGOING": "PM · 진행 중",
+    "PM + backend-leaning full stack · team of 4": "PM + 백엔드 중심 풀스택 · 4인 팀",
+    "A multi-agent society simulator where student and professor agents autonomously form relationships, organizations, and emergent narratives. Selected from competing team proposals at a WISET hackerspace mentoring program.": "학생·교수 에이전트가 자율적으로 관계와 조직을 형성하며 새로운 서사를 만드는 멀티에이전트 소사이어티 시뮬레이터입니다. WISET 해커스페이스 멘토링 프로그램에서 여러 팀 제안 중 채택되었습니다.",
+    "Split the system into six one-directional layers — Tick Engine, Event Master Agent, Agent Runtime, Policy Engine, Commit Service — so every write to the database goes through one place.": "Tick Engine, Event Master Agent, Agent Runtime, Policy Engine, Commit Service까지 단방향으로 흐르는 6개 레이어로 나눠, 모든 DB 쓰기가 한 곳을 거치도록 설계했습니다.",
+    "LEADERSHIP": "리더십",
+    "Redesigned how the team collaborates with AI itself — role personas cut from 8 to 3, repeatable workflows turned into skills, a three-question approval gate for anything irreversible.": "팀이 AI와 협업하는 방식 자체를 다시 설계했습니다 — 역할 페르소나를 8개에서 3개로 줄이고, 반복 업무를 스킬로 만들었으며, 되돌릴 수 없는 작업에는 세 가지 질문으로 구성된 승인 절차를 두었습니다.",
+    "02 · IN PRODUCTION USE": "02 · 실사용 중",
+    "Six always-on agents (blog, reports, briefings, PR review) plus a resumable PM → Engineer → Reviewer → QA loop I use every day — not a shelved side project.": "블로그, 리포트, 브리핑, PR 리뷰까지 상시 작동하는 6개 에이전트와 중단 지점부터 이어갈 수 있는 PM → 엔지니어 → 리뷰어 → QA 루프로, 방치된 사이드 프로젝트가 아니라 매일 쓰는 시스템입니다.",
+    "A four-stage pipeline turns monthly goals into weekly milestones and daily actions. Grew out of a weekly to-do habit → a hierarchy prototype → this product.": "월간 목표를 주간 마일스톤과 일일 할 일로 연결하는 4단계 파이프라인입니다. 매주 손으로 정리하던 할 일 관리 습관 → 계층 구조 프로토타입 → 이 제품으로 이어졌습니다.",
+    "Team lead + Backend · team of 2": "팀장 + 백엔드 · 2인 팀",
+    "AWARD · DATA": "수상작 · 데이터",
+    "Semiconductor": "반도체",
+    "Yield Analysis": "수율 분석",
+    "Data Station Academy · 2024": "데이터스테이션 아카데미 · 2024",
+    "Statistical root-cause analysis of process-stage defects, on a team of mostly semiconductor majors — I wasn't one of them.": "대부분 반도체 전공자로 구성된 팀에서, 비전공자로서 공정 단계별 결함의 원인을 통계적으로 분석했습니다.",
+    "DATA DECISION": "데이터 분석 판단",
+    "Used T-tests and correlation analysis to pin down the variables driving defects, then fed them into a Random Forest model as key features.": "T-검정과 상관분석으로 결함에 영향을 주는 변수를 추려내고, 이를 Random Forest 모델의 핵심 피처로 사용했습니다.",
+
+    "[ 02 — RESEARCH EXPERIENCE ]": "[ 02 — 연구 경험 ]",
+
+    "[ 03 — CREDIBILITY ]": "[ 03 — 수상 및 활동 ]",
+    "First Prize": "최우수상",
+    "· Semiconductor Yield Analysis · Data Station Academy · 2024": "· 반도체 수율 분석 · 데이터스테이션 아카데미 · 2024",
+    "Encouragement Award · KNU MLA · CES Autonomous Project Competition · 2026": "장려상 · KNU MLA · CES 자율프로젝트 경진대회 · 2026",
+    "Encouragement Award · Ildan-Shim · AI-conic Hackathon · 2025": "장려상 · 일단 쉼 · AI-conic Hackathon · 2025",
+
+    "[ 04 — AI-NATIVE PHILOSOPHY ]": "[ 04 — AI-네이티브 개발 철학 ]",
+
+    "LIVE FIELD": "실시간 필드",
+
+    "[ 05 — LEADERSHIP ]": "[ 05 — 리더십 ]",
+    "Structure for": "구조를 만드는 것부터,",
+    "systems, then people.": "그다음이 사람입니다.",
+    "Design the structure.": "구조를 설계합니다.",
+    "I'm the type who needs a plan before starting anything, and I'd rather do it thoroughly than fast. Leading meant scaling that instinct: role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.": "저는 뭐든 시작하기 전에 계획부터 세워야 하는 성격이고, 빨리 하는 것보다 철두철미하게 하는 걸 좋아합니다. 팀을 이끈다는 건 이 성향을 팀 전체 구조로 확장하는 일이었습니다 — 역할 페르소나를 8개에서 3개로 줄이고, 반복 업무를 스킬로 만들었으며, 되돌릴 수 없는 작업에는 세 가지 질문으로 구성된 승인 절차를 두었습니다.",
+    "Understand the people.": "사람을 이해합니다.",
+    "Structure alone wasn't enough. I learned to design for different motivations and skill levels on the team, not just for the workflow.": "구조만으로는 부족했습니다. 워크플로우뿐 아니라 팀원마다 다른 동기와 역량 수준까지 고려해 설계하는 법을 배웠습니다.",
+    "Systems, then people.": "구조, 그다음 사람.",
+    "I used to think good process was the whole job. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed my mind.": "좋은 프로세스만 있으면 된다고 생각했습니다. 팀이 실제로 일하는 방식을 지켜보고, 역할 페르소나를 담당자가 아니라 활동 중심으로 다시 짜면서 생각이 바뀌었습니다.",
+
+    "[ 06 — TRAJECTORY ]": "[ 06 — 여정 ]",
+
+    "[ 07 — AI & CODING LESSONS ]": "[ 07 — AI·코딩 수업 ]",
+
+    "[ 08 — HOW I WORK / CONTACT ]": "[ 08 — 작업 방식 / 연락처 ]"
   }));
 
   document.documentElement.lang = "ko";
