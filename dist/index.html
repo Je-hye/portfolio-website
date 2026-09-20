@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=1789899655">
+  <link rel="stylesheet" href="./styles.css?v=1789900555">
 </head>
 <body>
   <div class="cursor-orb" aria-hidden="true"></div>
@@ -18,7 +18,11 @@
     <nav aria-label="Main navigation">
       <a href="#systems">Systems</a>
       <a href="#research">Research</a>
+      <a href="#credibility">Credibility</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#leadership">Leadership</a>
       <a href="#story">Story</a>
+      <a href="#impact">Impact</a>
       <a href="#contact">Contact</a>
       <a class="language-switch" href="?lang=ko" data-language-switch>KO</a>
     </nav>
@@ -30,8 +34,11 @@
       <div class="hero-intro reveal">
         <p class="eyebrow"><span class="live-dot"></span> Backend · AI Systems engineer</p>
         <h1>I don't rely on<br>willpower — I design <em>systems.</em></h1>
-        <p class="hero-copy">So the right thing happens anyway. I build habits, workflows, and AI-agent harnesses that make follow-through automatic — not a matter of discipline.</p>
-        <p class="hero-anecdote">I'm a planner by nature. MBTI tests always place me at a full 100% J. In my last year of high school, I didn't trust willpower alone. So I started a group chat with my tutoring classmates to share our study hours every day — and ended up studying 12–15 hours a day.</p>
+        <p class="hero-copy">So the right thing happens anyway — not by discipline, but by design. I build habits, workflows, and AI-agent harnesses that make follow-through automatic.</p>
+        <div class="hero-trait">
+          <strong class="trait-figure">100% J</strong>
+          <p>Planner by nature. In my last year of high school, I turned daily study hours into a shared group-chat habit with my tutoring classmates — and ended up studying 12–15 hours a day.</p>
+        </div>
         <div class="hero-links">
           <a class="pill primary" href="#systems">Explore selected work <span>↘</span></a>
           <a class="pill" href="mailto:mgs10204@gmail.com">Start a conversation</a>
@@ -128,6 +135,10 @@
             <span>SYSTEM DECISION</span>
             <p>Threads can't truly parallelize CPU-bound encoding past Python's GIL, so I used ProcessPoolExecutor to spawn separate OS-level processes instead, letting the OS scheduler distribute jobs across CPU cores, then processed completed jobs asynchronously as they finished to cut idle time.</p>
           </div>
+          <div class="decision">
+            <span>DATA DECISION</span>
+            <p>Profiled each clip's data characteristics first, then used that profile to set compression priority instead of applying uniform settings across the board.</p>
+          </div>
           <ul><li>Python</li><li>FFmpeg</li><li>VTM</li><li>BD-Rate</li><li>PSNR</li></ul>
           <a class="pin-link" href="https://github.com/EunHye-03/video-codec-analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
         </article>
@@ -158,8 +169,18 @@
         <div class="metric"><strong>4</strong><span>video codecs<br>AVC / HEVC / AV1 / VP9</span></div>
         <div class="metric"><strong>4</strong><span>paper benchmarks<br>BlendedMVS / CO3Dv2 / Free / Re10K</span></div>
         <div class="metric"><strong>2</strong><span>diffusion restoration models<br>CODiff / DiQP</span></div>
-        <p>I analyzed 2D evaluation experiment logs, organized CRF items and diffusion evaluation metrics, and performed worst-case analysis and qualitative evaluation across AVC, HEVC, AV1, and VP9 codec environments.</p>
-        <p class="venue-note">ACM SIGGRAPH Asia is rated S-grade (top tier) by the Korean Institute of Information Scientists and Engineers, with researchers from NVIDIA, Adobe, Google, and Disney regularly presenting.</p>
+        <p class="research-lead">Analyzed 2D evaluation experiment logs across all four codecs to surface worst-case behavior.</p>
+        <ul class="research-tasks">
+          <li>Log analysis</li>
+          <li>CRF item review</li>
+          <li>Diffusion metric evaluation</li>
+          <li>Worst-case analysis</li>
+          <li>Qualitative evaluation</li>
+        </ul>
+        <div class="venue-badge">
+          <span class="venue-grade">S-Grade</span>
+          <p>Rated top-tier by the Korean Institute of Information Scientists and Engineers — with researchers from NVIDIA, Adobe, Google, and Disney regularly presenting.</p>
+        </div>
       </div>
     </section>
 
@@ -172,7 +193,7 @@
       </div>
     </section>
 
-    <section class="philosophy">
+    <section id="philosophy" class="philosophy">
       <div class="manifesto-intro reveal">
         <blockquote>“I turn gaps into momentum, then use relentless logic to move past the limits.”</blockquote>
         <div class="manifesto-note">
@@ -286,6 +307,7 @@
             <li>Prompt-to-skill design &amp; testing</li>
             <li>Reliability layers &amp; human approval</li>
             <li>Content and textbook-review automation</li>
+            <li>Sub-agent team setup coaching for academy automation</li>
           </ul>
         </article>
       </div>
@@ -307,8 +329,8 @@
     </div>
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
   </footer>
-  <script src="./script.js?v=1789899655"></script>
-  <script src="./webgl-field.js?v=1789899655"></script>
-  <script src="./language.js?v=1789899655"></script>
+  <script src="./script.js?v=1789900555"></script>
+  <script src="./webgl-field.js?v=1789900555"></script>
+  <script src="./language.js?v=1789900555"></script>
 </body>
 </html>
