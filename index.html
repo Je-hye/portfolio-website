@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EunHye Jeong — backend and AI systems engineer improving development workflows and connecting AI to services and platforms.">
+  <meta name="theme-color" content="#07090f">
+  <title>EunHye Jeong — AI Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="cursor-orb" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="EunHye Jeong, home">Jehye<span>·</span>26</a>
+    <nav aria-label="Main navigation">
+      <a href="#systems">Systems</a>
+      <a href="#research">Research</a>
+      <a href="#story">Story</a>
+      <a href="#contact">Contact</a>
+      <a class="language-switch" href="?lang=ko" data-language-switch>KO</a>
+    </nav>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Open navigation">Menu</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-intro reveal">
+        <p class="eyebrow"><span class="live-dot"></span> Backend · AI Systems engineer</p>
+        <h1>I don't rely on<br>willpower — I design <em>systems.</em></h1>
+        <p class="hero-copy">So the right thing happens anyway. I build the habits, workflows, and AI-agent harnesses that make follow-through automatic — not a matter of discipline.</p>
+        <p class="hero-anecdote">I'm a planner by nature — MBTI tests always place me at a full 100% J. In my last year of high school, I didn't trust willpower alone to keep me studying, so I started a group chat with my tutoring classmates to share our study hours every day. I ended up studying 12–15 hours a day.</p>
+        <div class="hero-links">
+          <a class="pill primary" href="#systems">Explore selected work <span>↘</span></a>
+          <a class="pill" href="mailto:mgs10204@gmail.com">Start a conversation</a>
+        </div>
+      </div>
+
+      <div class="portrait-stage reveal" data-tilt tabindex="0" aria-label="Interactive portrait of EunHye Jeong">
+        <div class="tape tape-one"></div>
+        <div class="portrait-card">
+          <img src="./assets/eunhye-jeong.jpg" alt="Portrait of EunHye Jeong">
+          <div class="portrait-caption">
+            <span>01 / PORTRAIT</span>
+            <span>DAEGU, KR</span>
+          </div>
+        </div>
+        <div class="sticker sticker-a">SYSTEM<br>THINKER</div>
+        <div class="sticker sticker-b">BUILD<br>MEASURE<br>LEARN</div>
+        <div class="orbit-label">research · agents · infrastructure · automation ·</div>
+      </div>
+
+      <div class="hero-status">
+        <span>Currently</span>
+        <strong>Kyungpook National University · Global Software Convergence · Junior</strong>
+        <strong>Enactus KNU 10th</strong>
+        <strong>Likelion 14th · Backend</strong>
+        <strong>KNU Video Intelligence Lab · 3D Research · On Pause</strong>
+      </div>
+    </section>
+
+    <section id="systems" class="systems">
+      <div class="section-heading reveal">
+        <p class="section-index">[ 01 — SELECTED SYSTEMS ]</p>
+        <h2>Built like a<br><em>living board.</em></h2>
+        <p>Tap or hover each pin to reveal the design decision behind the build.</p>
+      </div>
+
+      <div class="pin-grid">
+        <article class="pin pin-feature reveal" tabindex="0">
+          <div class="pin-topline"><span>01</span><span>PM · ONGOING</span></div>
+          <h3>Magic<br>Academy</h3>
+          <p class="pin-role">PM + backend-leaning full stack · team of 4</p>
+          <p>A multi-agent society simulator where student and professor agents autonomously form relationships, organizations, and emergent narratives. Selected from competing team proposals at a WISET hackerspace mentoring program.</p>
+          <div class="decision">
+            <span>SYSTEM DECISION</span>
+            <p>Split the system into six one-directional layers — Tick Engine, Event Master Agent, Agent Runtime, Policy Engine, Commit Service — so every write to the database goes through one place.</p>
+          </div>
+          <div class="decision">
+            <span>LEADERSHIP</span>
+            <p>Redesigned how the team collaborates with AI itself — role personas cut from 8 to 3, repeatable workflows turned into skills, a three-question approval gate for anything irreversible.</p>
+          </div>
+          <ul><li>LangGraph</li><li>PostgreSQL</li><li>React</li><li>Discord Bot</li></ul>
+        </article>
+
+        <article class="pin pin-photo reveal" tabindex="0">
+          <img src="./assets/ai-systems-editorial-collage.png" alt="Abstract editorial collage of layered system diagrams, optical studies, and computational modules">
+          <div class="pin-overlay"><span>02 · IN PRODUCTION USE</span><h3>my-ai-agents</h3><p>Six always-on agents (blog, reports, briefings, PR review) plus a resumable PM → Engineer → Reviewer → QA loop I use every day — not a shelved side project.</p></div>
+        </article>
+
+        <article class="pin pin-blue reveal" tabindex="0">
+          <div class="pin-topline"><span>03</span><span>SOLO BUILD</span></div>
+          <h3>Hierar-Do</h3>
+          <p class="pin-role">AI hierarchical to-do service</p>
+          <p>A four-stage pipeline turns monthly goals into weekly milestones and daily actions. Grew out of a weekly to-do habit → a hierarchy prototype → this product.</p>
+          <div class="decision">
+            <span>DESIGN DECISION</span>
+            <p>Restricted LLM calls to parse and decompose; scheduling stays deterministic for lower cost and predictable output.</p>
+          </div>
+          <ul><li>FastAPI</li><li>LangGraph</li><li>Docker</li><li>pytest</li></ul>
+        </article>
+
+        <article class="pin pin-light reveal" tabindex="0">
+          <div class="pin-topline"><span>04</span><span>AWARD</span></div>
+          <h3>KNU MLA</h3>
+          <p class="pin-role">Team lead + Backend · team of 2</p>
+          <p>A multilingual assistant with internal terminology lookup, LLM fallback, and a self-growing knowledge base.</p>
+          <div class="decision">
+            <span>SECURITY FINDING</span>
+            <p>Found missing authentication across chat, memo, and feedback routes; added checks to every personal-data endpoint.</p>
+          </div>
+          <ul><li>FastAPI</li><li>GPT-4o</li><li>JWT</li><li>SMTP</li></ul>
+        </article>
+
+        <article class="pin pin-codec reveal" tabindex="0">
+          <div class="pin-topline"><span>05</span><span>FEB 2026 · SOLO</span></div>
+          <h3>Video Codec<br>Analysis</h3>
+          <p class="pin-role">HEVC / VVC compression pipeline</p>
+          <p>A five-stage pipeline connects video analysis, parallel encoding, metric calculation, and result visualization.</p>
+          <div class="decision">
+            <span>SYSTEM DECISION</span>
+            <p>Used ProcessPoolExecutor instead of threads for CPU-bound encoding, then processed completed jobs asynchronously to reduce idle time.</p>
+          </div>
+          <ul><li>Python</li><li>FFmpeg</li><li>VTM</li><li>BD-Rate</li><li>PSNR</li></ul>
+          <a class="pin-link" href="https://github.com/EunHye-03/video-codec-analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+
+        <article class="pin pin-acid reveal" tabindex="0">
+          <div class="pin-topline"><span>06</span><span>1-WEEK HACKATHON</span></div>
+          <h3>Ildan-Shim</h3>
+          <p class="pin-role">Planning + Frontend · team of 3</p>
+          <p>A stress-tagging AI scheduler with secure backend OAuth delegation and real-time SSE notifications.</p>
+          <div class="decision">
+            <span>DEBUG NOTE</span>
+            <p>Resolved a calendar day-count mismatch by deriving the true month length from a mid-range date.</p>
+          </div>
+          <ul><li>React</li><li>OAuth2</li><li>SSE</li></ul>
+        </article>
+
+        <article class="pin pin-data reveal" tabindex="0">
+          <div class="pin-topline"><span>07</span><span>AWARD · DATA</span></div>
+          <h3>Semiconductor<br>Yield Analysis</h3>
+          <p class="pin-role">Data Station Academy · 2024</p>
+          <p>Statistical root-cause analysis of process-stage defects, on a team of mostly semiconductor majors — I wasn't one of them.</p>
+          <div class="decision">
+            <span>DATA DECISION</span>
+            <p>Used T-tests and correlation analysis to pin down the variables driving defects, then fed them into a Random Forest model as key features.</p>
+          </div>
+          <ul><li>Python</li><li>pandas</li><li>T-test</li><li>Random Forest</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="research">
+      <div class="research-card reveal" data-tilt>
+        <div class="chrome-badge">CONDITIONALLY ACCEPTED</div>
+        <p class="section-index">[ 02 — RESEARCH EXPERIENCE ]</p>
+        <h2>Restoration Experiment<br>Log Analysis &amp; Qualitative Evaluation</h2>
+        <p class="paper-title">CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction</p>
+        <p class="venue">Co-author · ACM SIGGRAPH Asia 2026</p>
+      </div>
+      <div class="research-details reveal">
+        <div class="metric"><strong>4</strong><span>video codecs<br>AVC / HEVC / AV1 / VP9</span></div>
+        <div class="metric"><strong>4</strong><span>paper benchmarks<br>BlendedMVS / CO3Dv2 / Free / Re10K</span></div>
+        <div class="metric"><strong>2</strong><span>diffusion restoration models<br>CODiff / DiQP</span></div>
+        <p>I analyzed 2D evaluation experiment logs, organized CRF items and diffusion evaluation metrics, and performed worst-case analysis and qualitative evaluation across AVC, HEVC, AV1, and VP9 codec environments.</p>
+      </div>
+    </section>
+
+    <section id="credibility" class="credibility reveal">
+      <p class="section-index">[ 03 — CREDIBILITY ]</p>
+      <div class="credibility-row">
+        <span class="credibility-item credibility-top"><strong>First Prize</strong> · Semiconductor Yield Analysis · Data Station Academy · 2024</span>
+        <span class="credibility-item">Encouragement Award · KNU MLA · CES Autonomous Project Competition · 2026</span>
+        <span class="credibility-item">Encouragement Award · Ildan-Shim · AI-conic Hackathon · 2025</span>
+      </div>
+    </section>
+
+    <section class="philosophy">
+      <div class="manifesto-intro reveal">
+        <blockquote>“I turn gaps into momentum, then use relentless logic to move past the limits.”</blockquote>
+        <div class="manifesto-note">
+          <p>I found software after taking the long route through another major. That detour taught me to treat constraints as design material: understand the failure mode, build the workflow, measure what changed.</p>
+          <div class="tags"><span>#resilience</span><span>#technical-service</span><span>#human-in-the-loop</span></div>
+        </div>
+      </div>
+      <div class="section-heading reveal">
+        <p class="section-index">[ 04 — AI-NATIVE PHILOSOPHY ]</p>
+        <h2>AI-native, never <em>judgment-free.</em></h2>
+      </div>
+      <div class="principles">
+        <article class="reveal"><span>01</span><h3>Bound the agent.</h3><p>Clear roles, persisted state, explicit handoffs, and limited rework cycles keep multi-agent workflows inspectable.</p></article>
+        <article class="reveal"><span>02</span><h3>Design for failure.</h3><p>LLM output is treated as fallible input. Defensive parsing, tests, and cross-tool verification are part of the architecture.</p></article>
+        <article class="reveal"><span>03</span><h3>Keep judgment human.</h3><p>My prompts require evidence and clarification instead of fabricated certainty. The system accelerates decisions; it does not own them.</p></article>
+      </div>
+      <article class="workflow-case reveal">
+        <div>
+          <p class="section-index">AI-AGENT DEVELOPMENT WORKFLOW</p>
+          <h3>Less context upkeep.<br>More room to build.</h3>
+          <p>I built an AI-agent development workflow to reduce repetitive documentation and context-maintenance work, leaving more time for design and implementation.</p>
+        </div>
+        <ul>
+          <li>Project context managed through <code>CLAUDE.md</code></li>
+          <li>Automated retrospectives and work logs</li>
+          <li>Automated documentation of code-analysis results</li>
+          <li>Automated first drafts of project documents</li>
+        </ul>
+      </article>
+      <div class="workflow-ticker" aria-label="Agent development workflow">
+        <div class="ticker-track">
+          <span class="ticker-copy">SPEC <i>→</i> IMPLEMENT <i>→</i> REVIEW <i>→</i> TEST <i>→</i> SPEC <i>→</i> IMPLEMENT <i>→</i> REVIEW <i>→</i> TEST <i>→</i></span>
+          <span class="ticker-copy" aria-hidden="true">SPEC <i>→</i> IMPLEMENT <i>→</i> REVIEW <i>→</i> TEST <i>→</i> SPEC <i>→</i> IMPLEMENT <i>→</i> REVIEW <i>→</i> TEST <i>→</i></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="systems-field" class="systems-field" aria-labelledby="field-title">
+      <canvas id="systems-canvas" aria-label="Interactive three-dimensional agent network responding to pointer and touch forces"></canvas>
+      <div class="field-vignette" aria-hidden="true"></div>
+      <div class="field-copy">
+        <p class="section-index">LIVE FIELD</p>
+        <h2 id="field-title">A system is a set<br>of <em>moving relations.</em></h2>
+        <p>This WebGL network runs in real time. Its nodes are held together by spring constraints, damped by friction, and disturbed by your pointer or touch.</p>
+        <div class="field-legend">
+          <span><i class="legend-node"></i> 36 autonomous nodes</span>
+          <span><i class="legend-line"></i> spring-linked topology</span>
+          <span><i class="legend-touch"></i> drag / touch to perturb</span>
+        </div>
+      </div>
+      <div class="field-readout" aria-hidden="true">
+        <span>WEBGL / LIVE</span>
+        <span id="field-energy">ENERGY 00.0</span>
+      </div>
+    </section>
+
+    <section id="leadership" class="leadership">
+      <div class="section-heading reveal">
+        <p class="section-index">[ 05 — LEADERSHIP ]</p>
+        <h2>Structure for<br><em>systems, then people.</em></h2>
+      </div>
+      <div class="leadership-grid">
+        <article class="reveal"><span>01</span><h3>Design the structure.</h3><p>I'm the type who needs a plan before starting anything — not slow, but systematic: fast and thorough at the same time. Leading meant scaling that instinct: role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.</p></article>
+        <article class="reveal"><span>02</span><h3>Understand the people.</h3><p>Structure alone wasn't enough. I learned to design for different motivations and skill levels on the team, not just for the workflow.</p></article>
+        <article class="reveal"><span>03</span><h3>Systems, then people.</h3><p>I used to think good process was the whole job. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed my mind.</p></article>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="story-copy reveal">
+        <p class="section-index">[ 06 — TRAJECTORY ]</p>
+        <h2>The long route<br>became the edge.</h2>
+        <p>I moved from Polymer Science & Engineering into Computer Science after discovering the kind of work that makes me lose track of time. A hackathon later became a turning point that brought me back to coding, and I have since explored my interests and grown as a developer through different projects.</p>
+        <a class="story-link" href="https://mgs10204.tistory.com/8" target="_blank" rel="noreferrer">Read my story and development approach ↗</a>
+      </div>
+      <div class="timeline">
+        <article class="reveal"><time>2023—25</time><h3>Polymer Science & Engineering</h3><p>Kyungpook National University</p></article>
+        <article class="reveal"><time>2024</time><h3>First Prize · Applied Python Data Analysis</h3><p>Data Station Academy</p></article>
+        <article class="reveal"><time>2025—28</time><h3>Global Software Convergence</h3><p>Department of Computer Science · expected Summer 2028</p></article>
+        <article class="reveal"><time>2025—26</time><h3>Two encouragement awards</h3><p>AI-conic Hackathon · CES Autonomous Project Competition</p></article>
+        <article class="reveal"><time>2026—</time><h3>Undergraduate Researcher</h3><p>KNU Video Intelligence Lab</p></article>
+      </div>
+    </section>
+
+    <section id="impact" class="impact">
+      <p class="section-index reveal">[ 07 — AI &amp; CODING LESSONS ]</p>
+      <div class="impact-grid">
+        <article class="impact-card impact-analysis reveal" tabindex="0">
+          <strong>RC-Car Coding Lesson</strong>
+          <span>Masan Yongma High School · Assistant Instructor · 2025</span>
+          <p>Supported a hands-on mobility coding class using mBlock and Arduino.</p>
+          <ul class="lesson-topics">
+            <li>Motor control &amp; basic driving</li>
+            <li>Infrared line tracking</li>
+            <li>Ultrasonic obstacle avoidance</li>
+            <li>Bluetooth remote control</li>
+          </ul>
+        </article>
+        <article class="impact-card reveal" tabindex="0">
+          <strong>AI Workflow Lesson</strong>
+          <span>Union Science Academy · 5-week instructor course</span>
+          <p>Designed a practice-led course around real academy materials and repeatable AI-assisted work.</p>
+          <ul class="lesson-topics">
+            <li>Task selection &amp; student data safety</li>
+            <li>Academy standards &amp; workflow documentation</li>
+            <li>Prompt-to-skill design &amp; testing</li>
+            <li>Reliability layers &amp; human approval</li>
+            <li>Content and textbook-review automation</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="toolbox">
+      <p class="section-index reveal">[ 08 — HOW I WORK / CONTACT ]</p>
+      <div class="marquee"><div>AI-assisted development · Agent workflows · Prompt design · Verification · Documentation · Automation ·</div></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact.</h2>
+    <div class="footer-links">
+      <a href="mailto:mgs10204@gmail.com">mgs10204@gmail.com ↗</a>
+      <a href="https://github.com/Je-hye" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a href="https://linkedin.com/in/jehye" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      <a href="https://mgs10204.tistory.com" target="_blank" rel="noreferrer">Notes ↗</a>
+    </div>
+    <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
+  </footer>
+  <script src="./script.js"></script>
+  <script src="./webgl-field.js"></script>
+  <script src="./language.js"></script>
+</body>
+</html>
