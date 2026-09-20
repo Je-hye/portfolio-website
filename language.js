@@ -117,6 +117,9 @@
     "Infrared line tracking": "적외선 센서 기반 라인 인식 주행",
     "Ultrasonic obstacle avoidance": "초음파 센서 기반 장애물 회피",
     "Bluetooth remote control": "블루투스 원격 제어 주행",
+    "Computational Thinking & SW Engineering": "컴퓨팅사고와 SW공학",
+    "Kyungpook National University · Course Tutor · 2025 Fall": "경북대학교 · 과목 튜터 · 2025-2학기",
+    "Tutored the Python-based course I'd earned an A+ in myself.": "본인이 A+를 받았던 파이썬 기반 과목의 튜터로 활동했다.",
     "AI Workflow Lesson": "AI 워크플로우 수업",
     "Union Science Academy · 5-week instructor course": "유니온 과학학원 · 강사 대상 5주 과정",
     "Designed a practice-led course around real academy materials and repeatable AI-assisted work.": "실제 학원 자료를 바탕으로 반복 가능한 AI 활용 업무를 만드는 실습 중심 수업을 구성했습니다.",
@@ -183,8 +186,8 @@
     "I'm the type who needs a plan before starting anything — not slow, but systematic: fast and thorough at the same time. Leading meant scaling that instinct: role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.": "저는 뭐든 시작하기 전에 계획부터 세워야 하는 성격이고, 느리게 하는 게 아니라 빠르면서도 철두철미하게, 체계적으로 하는 걸 좋아합니다. 팀을 이끈다는 건 이 성향을 팀 전체 구조로 확장하는 일이었습니다 — 역할 페르소나를 8개에서 3개로 줄이고, 반복 업무를 스킬로 만들었으며, 되돌릴 수 없는 작업에는 세 가지 질문으로 구성된 승인 절차를 두었습니다.",
     "Understand the people.": "사람을 이해합니다.",
     "Structure alone wasn't enough. I learned to design for different motivations and skill levels on the team, not just for the workflow.": "구조만으로는 부족했습니다. 워크플로우뿐 아니라 팀원마다 다른 동기와 역량 수준까지 고려해 설계하는 법을 배웠습니다.",
-    "Systems, then people.": "구조, 그다음 사람.",
-    "I used to think good process was the whole job. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed my mind.": "좋은 프로세스만 있으면 된다고 생각했습니다. 팀이 실제로 일하는 방식을 지켜보고, 역할 페르소나를 담당자가 아니라 활동 중심으로 다시 짜면서 생각이 바뀌었습니다.",
+    "Structure for people.": "사람을 위한 구조.",
+    "I design structure so people can work comfortably, not the other way around. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed how I think about leading.": "사람들이 편하게 일하기 위한 구조를 설계합니다. 팀이 실제로 일하는 방식을 지켜보고, 역할 페르소나를 담당자가 아니라 활동 중심으로 다시 짜면서 리더십에 대한 생각이 바뀌었습니다.",
 
     "[ 06 — TRAJECTORY ]": "[ 06 — 여정 ]",
 
