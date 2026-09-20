@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=1789915229">
+  <link rel="stylesheet" href="./styles.css?v=1789915571">
 </head>
 <body>
   <div class="cursor-orb" aria-hidden="true"></div>
@@ -111,27 +111,15 @@
             <p>Six always-on agents (blog, reports, briefings, PR review) plus a resumable PM → Engineer → Reviewer → QA loop I use every day — not a shelved side project.</p>
             <div class="decision">
               <span>UPGRADE DECISION</span><span class="upgrade-tag">Self-upgraded</span>
-              <p>This started as one script to draft a PR. I kept extending it on my own initiative — checkpointed state, then a QA pass, then a scheduler, then a briefing agent — until it became the daily system it is now.</p>
+              <p>This started as one script to draft a PR. I kept extending it on my own initiative — checkpointed state, then a QA pass, then a scheduler — until it became the daily system it is now.</p>
             </div>
             <div class="decision">
               <span>IN PROGRESS</span><span class="upgrade-tag">Self-upgraded</span>
-              <p>Currently extending the underlying dev-loop skill to split each role into its own tmux pane, so PM, Engineer, Reviewer, and QA run as visible parallel panes instead of one sequential thread.</p>
+              <p>Currently splitting each role into its own tmux pane, so PM, Engineer, Reviewer, and QA run as visible parallel panes instead of one sequential thread.</p>
             </div>
             <div class="decision">
-              <span>WORKFLOW DECISION</span>
-              <p>Built the PM → Engineer → Reviewer → QA loop to resume from its last checkpoint on any interruption instead of restarting from scratch, so it holds up as a system I run daily rather than a fragile demo.</p>
-            </div>
-            <div class="decision">
-              <span>SCHEDULING DECISION</span>
-              <p>Put every agent on a cron schedule instead of triggering them by hand, so blog drafts, reports, and briefings show up on a predictable cadence without me needing to remember to kick each one off.</p>
-            </div>
-            <div class="decision">
-              <span>BRIEFING AGENT</span>
-              <p>The briefing agent sorts incoming Gmail into five priority tiers with Claude Haiku before writing the daily digest, so it surfaces what matters instead of dumping every unread email.</p>
-            </div>
-            <div class="decision">
-              <span>BLOG AGENT</span>
-              <p>The blog agent doesn't write alone — it runs on a custom role-parallel writing skill from a separate skill repo, then drops the finished draft straight into the review loop above.</p>
+              <span>SYSTEM DECISION</span>
+              <p>The review loop resumes from its last checkpoint on any interruption, every agent runs on a cron schedule instead of manual triggers, and the briefing agent triages Gmail into five priority tiers before writing the daily digest.</p>
             </div>
             <ul><li>Claude Agent SDK</li><li>Sub-agents</li><li>Cron</li><li>GitHub Actions</li></ul>
             <a class="pin-link" href="https://github.com/Je-hye/my-ai-agents" target="_blank" rel="noreferrer">View on GitHub ↗</a>
@@ -402,8 +390,8 @@
     </div>
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
   </footer>
-  <script src="./script.js?v=1789915229"></script>
-  <script src="./webgl-field.js?v=1789915229"></script>
-  <script src="./language.js?v=1789915229"></script>
+  <script src="./script.js?v=1789915571"></script>
+  <script src="./webgl-field.js?v=1789915571"></script>
+  <script src="./language.js?v=1789915571"></script>
 </body>
 </html>
