@@ -168,7 +168,7 @@
     "Used T-tests and correlation analysis to pin down the variables driving defects, then fed them into a Random Forest model as key features.": "T-검정과 상관분석으로 결함에 영향을 주는 변수를 추려내고, 이를 Random Forest 모델의 핵심 피처로 사용했습니다.",
 
     "[ 02 — RESEARCH EXPERIENCE ]": "[ 02 — 연구 경험 ]",
-    "ACM SIGGRAPH Asia is one of the most prestigious international conferences in computer graphics and interactive techniques.": "ACM SIGGRAPH Asia는 컴퓨터 그래픽스·인터랙티브 기술 분야에서 가장 권위 있는 국제 학회 중 하나입니다.",
+    "ACM SIGGRAPH Asia is a top-tier, highly selective international conference in computer graphics and interactive techniques.": "ACM SIGGRAPH Asia는 컴퓨터 그래픽스·인터랙티브 기술 분야의 탑티어 국제 학회로, 논문 채택률이 매우 낮은 것으로 알려져 있습니다.",
 
     "[ 03 — CREDIBILITY ]": "[ 03 — 수상 및 활동 ]",
     "First Prize": "최우수상",
