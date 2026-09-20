@@ -147,7 +147,7 @@
     "Computational Thinking & SW Engineering": "컴퓨팅사고와 SW공학",
     "Kyungpook National University · Course Tutor · 2025 Fall": "경북대학교 · 과목 튜터 · 2025-2학기",
     "Tutored the Python-based course I'd earned an A+ in myself.": "A+를 받았던 파이썬 기반 과목의 튜터로 활동했습니다.",
-    "AI Workflow Lesson": "AI 활용 수업",
+    "AI Workflow Lesson": "AI 활용 레슨",
     "Union Science Academy · 5-week instructor course": "유니온 과학학원 · 강사 대상 5주 과정",
     "Designed a practice-led course around real academy materials and repeatable AI-assisted work. What started as a request to clean up lesson slides grew, on my own initiative, into a 9-role multi-agent blog-writing workflow for the academy.": "실제 학원 자료를 바탕으로 반복 가능한 AI 활용 업무를 만드는 실습 중심 수업을 구성했습니다. 수업 슬라이드를 정리해달라는 요청에서 시작해, 스스로 범위를 넓혀 학원용 9개 역할 멀티에이전트 블로그 작성 워크플로우까지 만들었습니다.",
     "Task selection & student data safety": "AI 적용 업무 선별과 학생 개인정보 보호",
