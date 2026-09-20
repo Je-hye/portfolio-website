@@ -87,6 +87,7 @@ body[data-lang="ko"] .marquee{font-family:"Noto Sans KR",var(--sans);font-weight
   .pin-feature,.pin-codec{grid-column:span 2}
   .pin-photo-expanded{grid-row:span 2;align-self:stretch;height:auto}
   .pin-photo-expanded img{min-height:100%}
+  .pin-data{align-self:stretch}
   .pin-photo-expanded{height:820px}
   .philosophy .section-heading{grid-template-columns:minmax(230px,.42fr) 1.58fr}
   .philosophy .section-heading .section-index{white-space:nowrap}

@@ -165,6 +165,8 @@
     "Six always-on agents (blog, reports, briefings, PR review) plus a resumable PM → Engineer → Reviewer → QA loop I use every day — not a shelved side project.": "블로그, 리포트, 브리핑, PR 리뷰까지 상시 작동하는 6개 에이전트와 중단 지점부터 이어갈 수 있는 PM → 엔지니어 → 리뷰어 → QA 루프로, 방치된 사이드 프로젝트가 아니라 매일 쓰는 시스템입니다.",
     "WORKFLOW DECISION": "워크플로우 설계 판단",
     "Built the PM → Engineer → Reviewer → QA loop to resume from its last checkpoint on any interruption instead of restarting from scratch, so it holds up as a system I run daily rather than a fragile demo.": "PM → 엔지니어 → 리뷰어 → QA 루프가 중단되어도 처음부터 다시 시작하지 않고 마지막 체크포인트부터 이어가도록 설계해, 매일 쓰기 힘든 데모가 아니라 실제로 운영 가능한 시스템으로 만들었습니다.",
+    "SCHEDULING DECISION": "스케줄링 설계 판단",
+    "Put every agent on a cron schedule instead of triggering them by hand, so blog drafts, reports, and briefings show up on a predictable cadence without me needing to remember to kick each one off.": "모든 에이전트를 수동 실행이 아니라 Cron 스케줄에 올려서, 블로그 초안·리포트·브리핑이 제가 일일이 기억해서 실행하지 않아도 정해진 주기로 알아서 생성되도록 했습니다.",
     "Claude Agent SDK": "Claude Agent SDK",
     "Sub-agents": "서브 에이전트",
     "Cron": "Cron",
