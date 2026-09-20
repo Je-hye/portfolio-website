@@ -37,7 +37,7 @@
     "KNU Video Intelligence Lab · 3D Research · On Pause": "KNU Video Intelligence Lab · 3D 연구 · 잠시 쉬는 중",
     "[ 01 — POINT OF VIEW ]": "[ 01 — 관점 ]",
     "“I turn gaps into momentum, then use relentless logic to move past the limits.”": "“기록을 남기고, 그 기록에서 구조를 다시 설계합니다.”",
-    "I found software after taking the long route through another major. That detour taught me to treat constraints as design material: understand the failure mode, build the workflow, measure what changed.": "의지만 믿기보다, 과정에서 마주친 문제와 판단을 빠짐없이 기록합니다. 그 기록을 근거로 구조와 흐름을 다시 설계하고, 반복되는 불편은 자동화하되 중요한 판단은 사람에게 남깁니다.",
+    "I found software after taking the long route through another major. That detour taught me to treat constraints as design material: understand the failure mode, build the workflow, measure what changed. I hold AI tools to that same standard.": "의지만 믿기보다, 과정에서 마주친 문제와 판단을 빠짐없이 기록합니다. 그 기록을 근거로 구조와 흐름을 다시 설계하고, 반복되는 불편은 자동화하되 중요한 판단은 사람에게 남깁니다. AI 도구를 쓸 때도 이 원칙을 그대로 적용합니다.",
     "#resilience": "#회복탄력성",
     "#technical-service": "#기술로문제해결",
     "#human-in-the-loop": "#사람중심AI",
