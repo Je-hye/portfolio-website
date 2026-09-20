@@ -180,7 +180,7 @@
     "Structure for": "구조를 만드는 것부터,",
     "systems, then people.": "그다음이 사람입니다.",
     "Design the structure.": "구조를 설계합니다.",
-    "I'm the type who needs a plan before starting anything, and I'd rather do it thoroughly than fast. Leading meant scaling that instinct: role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.": "저는 뭐든 시작하기 전에 계획부터 세워야 하는 성격이고, 빨리 하는 것보다 철두철미하게 하는 걸 좋아합니다. 팀을 이끈다는 건 이 성향을 팀 전체 구조로 확장하는 일이었습니다 — 역할 페르소나를 8개에서 3개로 줄이고, 반복 업무를 스킬로 만들었으며, 되돌릴 수 없는 작업에는 세 가지 질문으로 구성된 승인 절차를 두었습니다.",
+    "I'm the type who needs a plan before starting anything — not slow, but systematic: fast and thorough at the same time. Leading meant scaling that instinct: role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.": "저는 뭐든 시작하기 전에 계획부터 세워야 하는 성격이고, 느리게 하는 게 아니라 빠르면서도 철두철미하게, 체계적으로 하는 걸 좋아합니다. 팀을 이끈다는 건 이 성향을 팀 전체 구조로 확장하는 일이었습니다 — 역할 페르소나를 8개에서 3개로 줄이고, 반복 업무를 스킬로 만들었으며, 되돌릴 수 없는 작업에는 세 가지 질문으로 구성된 승인 절차를 두었습니다.",
     "Understand the people.": "사람을 이해합니다.",
     "Structure alone wasn't enough. I learned to design for different motivations and skill levels on the team, not just for the workflow.": "구조만으로는 부족했습니다. 워크플로우뿐 아니라 팀원마다 다른 동기와 역량 수준까지 고려해 설계하는 법을 배웠습니다.",
     "Systems, then people.": "구조, 그다음 사람.",
