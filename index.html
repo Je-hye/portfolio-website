@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=1789897816">
 </head>
 <body>
   <div class="cursor-orb" aria-hidden="true"></div>
@@ -87,7 +87,7 @@
 
         <article class="pin pin-photo reveal" tabindex="0">
           <img src="./assets/ai-systems-editorial-collage.png" alt="Abstract editorial collage of layered system diagrams, optical studies, and computational modules">
-          <div class="pin-overlay"><span>02 · IN PRODUCTION USE</span><h3>my-ai-agents</h3><p>Six always-on agents (blog, reports, briefings, PR review) plus a resumable PM → Engineer → Reviewer → QA loop I use every day — not a shelved side project.</p></div>
+          <div class="pin-overlay"><span>02 · IN PRODUCTION USE</span><h3>my-ai-agents</h3><p>Six always-on agents (blog, reports, briefings, PR review) plus a resumable PM → Engineer → Reviewer → QA loop I use every day — not a shelved side project.</p><a class="pin-link" href="https://github.com/Je-hye/my-ai-agents" target="_blank" rel="noreferrer">View on GitHub ↗</a></div>
         </article>
 
         <article class="pin pin-blue reveal" tabindex="0">
@@ -100,6 +100,7 @@
             <p>Restricted LLM calls to parse and decompose; scheduling stays deterministic for lower cost and predictable output.</p>
           </div>
           <ul><li>FastAPI</li><li>LangGraph</li><li>Docker</li><li>pytest</li></ul>
+          <a class="pin-link" href="https://github.com/Je-hye/Hierar-Do" target="_blank" rel="noreferrer">View on GitHub ↗</a>
         </article>
 
         <article class="pin pin-light reveal" tabindex="0">
@@ -112,6 +113,7 @@
             <p>Found missing authentication across chat, memo, and feedback routes; added checks to every personal-data endpoint.</p>
           </div>
           <ul><li>FastAPI</li><li>GPT-4o</li><li>JWT</li><li>SMTP</li></ul>
+          <a class="pin-link" href="https://github.com/Je-hye/knu-mla" target="_blank" rel="noreferrer">View on GitHub ↗</a>
         </article>
 
         <article class="pin pin-codec reveal" tabindex="0">
@@ -121,7 +123,7 @@
           <p>A five-stage pipeline connects video analysis, parallel encoding, metric calculation, and result visualization.</p>
           <div class="decision">
             <span>SYSTEM DECISION</span>
-            <p>Used ProcessPoolExecutor instead of threads for CPU-bound encoding, then processed completed jobs asynchronously to reduce idle time.</p>
+            <p>Threads can't truly parallelize CPU-bound encoding past Python's GIL, so I used ProcessPoolExecutor to spawn separate OS-level processes instead, letting the OS scheduler distribute jobs across CPU cores, then processed completed jobs asynchronously as they finished to cut idle time.</p>
           </div>
           <ul><li>Python</li><li>FFmpeg</li><li>VTM</li><li>BD-Rate</li><li>PSNR</li></ul>
           <a class="pin-link" href="https://github.com/EunHye-03/video-codec-analysis" target="_blank" rel="noreferrer">View on GitHub ↗</a>
@@ -137,6 +139,7 @@
             <p>Resolved a calendar day-count mismatch by deriving the true month length from a mid-range date.</p>
           </div>
           <ul><li>React</li><li>OAuth2</li><li>SSE</li></ul>
+          <a class="pin-link" href="https://github.com/Je-hye/2025_AI_conic_Hackathon" target="_blank" rel="noreferrer">View on GitHub ↗</a>
         </article>
 
         <article class="pin pin-data reveal" tabindex="0">
@@ -166,6 +169,7 @@
         <div class="metric"><strong>4</strong><span>paper benchmarks<br>BlendedMVS / CO3Dv2 / Free / Re10K</span></div>
         <div class="metric"><strong>2</strong><span>diffusion restoration models<br>CODiff / DiQP</span></div>
         <p>I analyzed 2D evaluation experiment logs, organized CRF items and diffusion evaluation metrics, and performed worst-case analysis and qualitative evaluation across AVC, HEVC, AV1, and VP9 codec environments.</p>
+        <p class="venue-note">ACM SIGGRAPH Asia is one of the most prestigious international conferences in computer graphics and interactive techniques.</p>
       </div>
     </section>
 
@@ -173,8 +177,8 @@
       <p class="section-index">[ 03 — CREDIBILITY ]</p>
       <div class="credibility-row">
         <span class="credibility-item credibility-top"><strong>First Prize</strong> · Semiconductor Yield Analysis · Data Station Academy · 2024</span>
-        <span class="credibility-item">Encouragement Award · KNU MLA · CES Autonomous Project Competition · 2026</span>
-        <span class="credibility-item">Encouragement Award · Ildan-Shim · AI-conic Hackathon · 2025</span>
+        <span class="credibility-item"><strong>Encouragement Award</strong> · KNU MLA · CES Autonomous Project Competition · 2026</span>
+        <span class="credibility-item"><strong>Encouragement Award</strong> · Ildan-Shim · AI-conic Hackathon · 2025</span>
       </div>
     </section>
 
@@ -197,7 +201,7 @@
       </div>
       <article class="workflow-case reveal">
         <div>
-          <p class="section-index">AI-AGENT DEVELOPMENT WORKFLOW</p>
+          <p class="section-index">AI-AGENT AUTOMATION</p>
           <h3>Less context upkeep.<br>More room to build.</h3>
           <p>I built an AI-agent development workflow to reduce repetitive documentation and context-maintenance work, leaving more time for design and implementation.</p>
         </div>
@@ -238,10 +242,10 @@
     <section id="leadership" class="leadership">
       <div class="section-heading reveal">
         <p class="section-index">[ 05 — LEADERSHIP ]</p>
-        <h2>Structure for<br><em>systems, then people.</em></h2>
+        <h2>Structure,<br><em>for people.</em></h2>
       </div>
       <div class="leadership-grid">
-        <article class="reveal"><span>01</span><h3>Design the structure.</h3><p>I'm the type who needs a plan before starting anything — not slow, but systematic: fast and thorough at the same time. Leading meant scaling that instinct: role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.</p></article>
+        <article class="reveal"><span>01</span><h3>Design the structure.</h3><p>I'm the type who needs a plan before starting anything, and I like doing things fast and thorough at once — systematically. Leading meant scaling that instinct: role personas cut from 8 to 3, repeatable workflows turned into skills, and a three-question approval gate for anything irreversible.</p></article>
         <article class="reveal"><span>02</span><h3>Understand the people.</h3><p>Structure alone wasn't enough. I learned to design for different motivations and skill levels on the team, not just for the workflow.</p></article>
         <article class="reveal"><span>03</span><h3>Structure for people.</h3><p>I design structure so people can work comfortably, not the other way around. Watching how the team actually worked, and rebuilding role personas around activities instead of owners, changed how I think about leading.</p></article>
       </div>
@@ -313,8 +317,8 @@
     </div>
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
   </footer>
-  <script src="./script.js"></script>
-  <script src="./webgl-field.js"></script>
-  <script src="./language.js"></script>
+  <script src="./script.js?v=1789897816"></script>
+  <script src="./webgl-field.js?v=1789897816"></script>
+  <script src="./language.js?v=1789897816"></script>
 </body>
 </html>
