@@ -17,7 +17,7 @@
     "Impact": "레슨",
     "Contact": "연락처",
     "Menu": "메뉴",
-    "Backend · AI-Native Engineer": "백엔드 · AI 네이티브 엔지니어",
+    "Backend · AI-Native Systems Engineer": "백엔드 · AI 네이티브 시스템 엔지니어",
     "I turn complex problems": "복잡한 문제를 구조화하고,",
     "into": "작동하는",
     "working systems.": "시스템으로 구현합니다.",
