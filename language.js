@@ -20,8 +20,8 @@
     "I don't rely on": "의지에 기대지 않고,",
     "willpower — I design": "시스템을 설계해서",
     "systems.": "옳은 방향으로 흘러가게 합니다.",
-    "So the right thing happens anyway. I build the habits, workflows, and AI-agent harnesses that make follow-through automatic — not a matter of discipline.": "그래야 의지와 상관없이 옳은 방향으로 흘러갑니다. 실행이 의지가 아니라 구조에서 나오도록, 습관과 워크플로우와 AI 에이전트 하네스를 만듭니다.",
-    "I'm a planner by nature — MBTI tests always place me at a full 100% J. In my last year of high school, I didn't trust willpower alone to keep me studying, so I started a group chat with my tutoring classmates to share our study hours every day. I ended up studying 12–15 hours a day.": "저는 원래 계획부터 세우는 성격이라, MBTI 검사를 하면 J가 항상 100%로 나옵니다. 고3 때도 의지만으로는 공부 시간을 못 늘릴 것 같아서 과외 선생님께 부탁해 같이 수업 듣는 학생들과 매일 공부 시간을 공유하는 단톡방을 만들었습니다. 그 뒤로 하루 12~15시간씩 공부했습니다.",
+    "So the right thing happens anyway. I build habits, workflows, and AI-agent harnesses that make follow-through automatic — not a matter of discipline.": "그래야 의지와 상관없이 옳은 방향으로 흘러갑니다. 실행이 의지가 아니라 구조에서 나오도록, 습관과 워크플로우와 AI 에이전트 하네스를 만듭니다.",
+    "I'm a planner by nature. MBTI tests always place me at a full 100% J. In my last year of high school, I didn't trust willpower alone. So I started a group chat with my tutoring classmates to share our study hours every day — and ended up studying 12–15 hours a day.": "저는 원래 계획부터 세우는 성격입니다. MBTI 검사를 하면 J가 항상 100%로 나옵니다. 고3 때는 의지만으로는 부족하다고 생각했습니다. 그래서 과외 선생님께 부탁해 같이 수업 듣는 학생들과 매일 공부 시간을 공유하는 단톡방을 만들었고, 그 뒤로 하루 12~15시간씩 공부했습니다.",
     "I use AI to improve development workflows and systems. With experience in vision research, I am interested in connecting AI technology to real services and platforms.": "AI를 활용해 개발 워크플로우와 시스템을 개선하는 백엔드·AI 시스템 엔지니어입니다. Vision 연구 경험을 바탕으로 AI 기술을 실제 서비스와 플랫폼에 연결하는 데 관심이 있습니다.",
     "Explore selected work": "주요 프로젝트 보기",
     "Start a conversation": "연락하기",
@@ -168,7 +168,7 @@
     "Used T-tests and correlation analysis to pin down the variables driving defects, then fed them into a Random Forest model as key features.": "T-검정과 상관분석으로 결함에 영향을 주는 변수를 추려내고, 이를 Random Forest 모델의 핵심 피처로 사용했습니다.",
 
     "[ 02 — RESEARCH EXPERIENCE ]": "[ 02 — 연구 경험 ]",
-    "ACM SIGGRAPH Asia is a top-tier, highly selective international conference in computer graphics and interactive techniques.": "ACM SIGGRAPH Asia는 컴퓨터 그래픽스·인터랙티브 기술 분야의 탑티어 국제 학회로, 논문 채택률이 매우 낮은 것으로 알려져 있습니다.",
+    "ACM SIGGRAPH Asia is rated S-grade (top tier) by the Korean Institute of Information Scientists and Engineers, with researchers from NVIDIA, Adobe, Google, and Disney regularly presenting.": "ACM SIGGRAPH Asia는 한국정보과학회 우수학술대회 평가에서 최고 등급인 S등급으로 분류되며, NVIDIA·Adobe·Google·Disney 등의 연구자들이 활발히 참여하는 학회입니다.",
 
     "[ 03 — CREDIBILITY ]": "[ 03 — 수상 및 활동 ]",
     "First Prize": "최우수상",
