@@ -16,7 +16,6 @@
     "Story": "이야기",
     "Impact": "레슨",
     "Contact": "연락처",
-    "Contact.": "연락처.",
     "Menu": "메뉴",
     "Backend · AI-Native Systems Engineer": "백엔드 · AI 네이티브 시스템 엔지니어",
     "I turn complex problems": "복잡한 문제를 구조화하고,",
