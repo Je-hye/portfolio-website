@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=1789951557">
+  <link rel="stylesheet" href="./styles.css?v=1789951863">
 </head>
 <body>
   <div class="cursor-orb" aria-hidden="true"></div>
@@ -292,7 +292,7 @@
         <article class="reveal" id="p-judgment"><span>01</span><h3>Keep judgment human.</h3><p>My prompts require evidence and clarification instead of fabricated certainty. The system accelerates decisions; it does not own them.</p><p class="evidence">On Magic Academy's FE workflow, AI drafts the spec-based implementation — the developer still runs it, tests it, reviews it, and is the one who merges it.</p></article>
         <article class="reveal" id="p-bound"><span>02</span><h3>Bound the agent.</h3><p>Clear roles, persisted state, explicit handoffs, and limited rework cycles keep multi-agent workflows inspectable.</p><p class="evidence">Event Master Agent escalates to a human after two consecutive parse failures instead of guessing; dev-loop gates approval at the spec and PR steps; Magic Academy decides when AI needs sign-off with one rule — is it irreversible, out of scope, or externally visible.</p></article>
         <article class="reveal" id="p-failure"><span>03</span><h3>Design for failure.</h3><p>LLM output is treated as fallible input. Defensive parsing, tests, and cross-tool verification are part of the architecture.</p><p class="evidence">Same logic behind the CompMVR security response — a pre-tool-use hook, a pre-commit hook, and a <code>.aiignore</code> template that structurally limit what AI can touch, instead of trusting it to know better.</p></article>
-        <article class="reveal"><span>04</span><h3>Keep upgrading.</h3><p>The requested scope is a floor, not a ceiling. Once a workflow works, I keep extending it — a single script became a scheduled multi-agent system; a comparison pipeline grew its own visualization stage — without waiting to be asked.</p><p class="evidence">my-ai-agents grew from a single PR-drafting script into a cron-scheduled system with checkpoint recovery and Gmail triage; the Video Codec Analysis Pipeline gained a fifth visualization stage the comparison never asked for.</p></article>
+        <article class="reveal"><span>04</span><h3>Keep upgrading.</h3><p>The requested scope is a floor, not a ceiling. Once a workflow works, I keep extending it — a single script became a scheduled multi-agent system; a comparison pipeline grew its own visualization stage — without waiting to be asked.</p><p class="evidence">my-ai-agents' review loop now resumes from its last checkpoint, every agent runs on a cron schedule instead of manual triggers, and it triages Gmail into five priority tiers before writing the daily briefing — none of that was the original ask. The Video Codec Analysis Pipeline gained a fifth visualization stage the comparison never asked for.</p></article>
       </div>
       <article class="workflow-case reveal">
         <div>
@@ -414,8 +414,8 @@
     </div>
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
   </footer>
-  <script src="./script.js?v=1789951557"></script>
-  <script src="./webgl-field.js?v=1789951557"></script>
-  <script src="./language.js?v=1789951557"></script>
+  <script src="./script.js?v=1789951863"></script>
+  <script src="./webgl-field.js?v=1789951863"></script>
+  <script src="./language.js?v=1789951863"></script>
 </body>
 </html>
