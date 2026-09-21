@@ -118,6 +118,7 @@
     "My prompts require evidence and clarification instead of fabricated certainty. The system accelerates decisions; it does not own them.": "근거 없는 확신보다 증거와 확인을 요구하도록 프롬프트를 설계합니다. 시스템은 의사결정을 가속하지만 판단의 주체가 되지는 않습니다.",
     "Keep upgrading.": "고도화를 멈추지 않습니다.",
     "The requested scope is a floor, not a ceiling. Once a workflow works, I keep extending it — a single script became a scheduled multi-agent system; a comparison pipeline grew its own visualization stage — without waiting to be asked.": "주어진 범위는 시작점일 뿐입니다. 워크플로우가 한번 돌아가기 시작하면 거기서 멈추지 않고 계속 고도화합니다 — 스크립트 하나가 스케줄 기반 멀티에이전트 시스템이 되고, 비교 파이프라인은 스스로 시각화 단계를 갖추게 됩니다 — 요청이 없어도요.",
+    "my-ai-agents grew from a single PR-drafting script into a cron-scheduled system with checkpoint recovery and Gmail triage; the Video Codec Analysis Pipeline gained a fifth visualization stage the comparison never asked for.": "my-ai-agents는 PR 초안을 작성하던 스크립트 하나에서 체크포인트 복구와 Gmail 우선순위 분류까지 갖춘 Cron 스케줄 시스템으로 성장했고, Video Codec Analysis Pipeline은 비교 작업에서 요구되지도 않았던 다섯 번째 시각화 단계를 스스로 추가했습니다.",
     "AI-AGENT AUTOMATION": "AI 에이전트 자동화",
     "Less context upkeep.": "반복 문서화는 줄이고,",
     "More room to build.": "설계와 구현에 집중합니다.",
