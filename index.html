@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=1789949999">
+  <link rel="stylesheet" href="./styles.css?v=1789950335">
 </head>
 <body>
   <div class="cursor-orb" aria-hidden="true"></div>
@@ -265,13 +265,33 @@
         </div>
       </div>
       <div class="section-heading reveal">
-        <p class="section-index">[ 04 — AI-NATIVE PHILOSOPHY ]</p>
+        <p class="section-index">[ 04 — AI-NATIVE DEVELOPMENT ]</p>
         <h2>AI-native, never <em>judgment-free.</em></h2>
       </div>
+      <div class="harness-flow reveal">
+        <p class="section-index">HOW I ACTUALLY WORK WITH AI</p>
+        <ol class="harness-steps">
+          <li><span>01</span><p>Judge whether this will repeat.</p></li>
+          <li>
+            <span>02</span>
+            <p>Build the harness or skill first — before writing the actual work.</p>
+            <ul class="harness-examples">
+              <li>Magic Academy — designed the team's AI collaboration system (Claude Teams) before writing a single feature</li>
+              <li>VCIP paper trimming — set the working harness and principles before the actual condensing work</li>
+              <li>Daily repeat tasks — turned into reusable skills instead of re-prompted from scratch each time</li>
+              <li>my-ai-agents — this exact pattern, built into a tool of its own</li>
+            </ul>
+          </li>
+          <li><span>03</span><p>Delegate the real work on top of it — scoped by the harness. <a href="#p-bound">↓ Bound the agent</a></p></li>
+          <li><span>04</span><p>Design so repeated runs stay safe. <a href="#p-failure">↓ Design for failure</a></p></li>
+          <li><span>05</span><p>Keep the final call human. <a href="#p-judgment">↓ Keep judgment human</a></p></li>
+        </ol>
+        <p class="harness-summary">Before I hand something to AI, I make sure the work itself is a repeatable system first — the same principle as the hero: design the system, not the willpower.</p>
+      </div>
       <div class="principles">
-        <article class="reveal"><span>01</span><h3>Keep judgment human.</h3><p>My prompts require evidence and clarification instead of fabricated certainty. The system accelerates decisions; it does not own them.</p></article>
-        <article class="reveal"><span>02</span><h3>Bound the agent.</h3><p>Clear roles, persisted state, explicit handoffs, and limited rework cycles keep multi-agent workflows inspectable.</p></article>
-        <article class="reveal"><span>03</span><h3>Design for failure.</h3><p>LLM output is treated as fallible input. Defensive parsing, tests, and cross-tool verification are part of the architecture.</p></article>
+        <article class="reveal" id="p-judgment"><span>01</span><h3>Keep judgment human.</h3><p>My prompts require evidence and clarification instead of fabricated certainty. The system accelerates decisions; it does not own them.</p><p class="evidence">On Magic Academy's FE workflow, AI drafts the spec-based implementation — the developer still runs it, tests it, reviews it, and is the one who merges it.</p></article>
+        <article class="reveal" id="p-bound"><span>02</span><h3>Bound the agent.</h3><p>Clear roles, persisted state, explicit handoffs, and limited rework cycles keep multi-agent workflows inspectable.</p><p class="evidence">Event Master Agent escalates to a human after two consecutive parse failures instead of guessing; dev-loop gates approval at the spec and PR steps; Magic Academy decides when AI needs sign-off with one rule — is it irreversible, out of scope, or externally visible.</p></article>
+        <article class="reveal" id="p-failure"><span>03</span><h3>Design for failure.</h3><p>LLM output is treated as fallible input. Defensive parsing, tests, and cross-tool verification are part of the architecture.</p><p class="evidence">Same logic behind the CompMVR security response — a pre-tool-use hook, a pre-commit hook, and a <code>.aiignore</code> template that structurally limit what AI can touch, instead of trusting it to know better.</p></article>
         <article class="reveal"><span>04</span><h3>Keep upgrading.</h3><p>The requested scope is a floor, not a ceiling. Once a workflow works, I keep extending it — a single script became a scheduled multi-agent system; a comparison pipeline grew its own visualization stage — without waiting to be asked.</p></article>
       </div>
       <article class="workflow-case reveal">
@@ -394,8 +414,8 @@
     </div>
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
   </footer>
-  <script src="./script.js?v=1789949999"></script>
-  <script src="./webgl-field.js?v=1789949999"></script>
-  <script src="./language.js?v=1789949999"></script>
+  <script src="./script.js?v=1789950335"></script>
+  <script src="./webgl-field.js?v=1789950335"></script>
+  <script src="./language.js?v=1789950335"></script>
 </body>
 </html>
