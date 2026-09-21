@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Noto+Sans+KR:wght@500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=1789915571">
+  <link rel="stylesheet" href="./styles.css?v=1789948997">
 </head>
 <body>
   <div class="cursor-orb" aria-hidden="true"></div>
@@ -126,55 +126,8 @@
           </div>
         </article>
 
-        <article class="pin pin-blue reveal" tabindex="0">
-          <div class="pin-topline"><span>03</span><span>SOLO BUILD</span></div>
-          <h3>Hierar-Do</h3>
-          <p class="pin-role">AI hierarchical to-do service</p>
-          <p>A four-stage pipeline turns monthly goals into weekly milestones and daily actions. Grew out of a weekly to-do habit → a hierarchy prototype → this product.</p>
-          <div class="decision">
-            <span>DESIGN DECISION</span>
-            <p>Restricted LLM calls to parse and decompose; scheduling stays deterministic for lower cost and predictable output.</p>
-          </div>
-          <ul><li>FastAPI</li><li>LangGraph</li><li>Docker</li><li>pytest</li></ul>
-          <a class="pin-link" href="https://github.com/Je-hye/Hierar-Do" target="_blank" rel="noreferrer">View on GitHub ↗</a>
-        </article>
-
-        <article class="pin pin-light reveal" tabindex="0">
-          <div class="pin-topline"><span>04</span><span>AWARD</span></div>
-          <h3>KNU MLA</h3>
-          <p class="pin-role">Team lead + Backend · team of 2</p>
-          <p>A multilingual assistant with internal terminology lookup, LLM fallback, and a self-growing knowledge base.</p>
-          <div class="decision">
-            <span>ARCHITECTURE DECISION</span>
-            <p>Designed a hybrid-search, self-growing knowledge base so the assistant could answer KNU-specific terminology precisely instead of guessing from the base LLM, then built the FastAPI backend and REST API around it.</p>
-          </div>
-          <ul><li>FastAPI</li><li>GPT-4o</li><li>JWT</li><li>SMTP</li></ul>
-          <a class="pin-link" href="https://github.com/Je-hye/knu-mla" target="_blank" rel="noreferrer">View on GitHub ↗</a>
-        </article>
-
-        <article class="pin pin-acid reveal" tabindex="0">
-          <div class="pin-topline"><span>05</span><span>SKILL LIBRARY</span></div>
-          <h3>Custom Agent Skills</h3>
-          <p class="pin-role">Reusable Claude Code skills</p>
-          <p>Skills I built for myself and reuse across projects — not one-off prompts, but versioned, hardened tools with their own spec.</p>
-          <div class="decision">
-            <span>DEV-LOOP</span>
-            <p>Runs a full feature end to end — pre-mortem risk review, spec, TDD implementation, code review, QA, PR — with persisted state so any step can resume after an interruption.</p>
-          </div>
-          <div class="decision">
-            <span>LOGIC-REVIEW</span>
-            <p>Audits a plan for internal consistency, hidden assumptions, and the strongest counter-arguments before I commit to it — never a single "looks good."</p>
-          </div>
-          <div class="decision">
-            <span>PAPER-REVIEW</span>
-            <p>Walks a research paper through abstract → method → experiments → limitations against a fixed template, so nothing gets skimmed.</p>
-          </div>
-          <ul><li>Claude Agent SDK</li><li>Skills</li></ul>
-          <a class="pin-link" href="https://github.com/Je-hye/my-agents-skills" target="_blank" rel="noreferrer">View skill library ↗</a>
-        </article>
-
         <article class="pin pin-codec reveal" tabindex="0">
-          <div class="pin-topline"><span>06</span><span>FEB 2026 · SOLO</span></div>
+          <div class="pin-topline"><span>03</span><span>FEB 2026 · SOLO</span></div>
           <h3>Video Codec Analysis Pipeline</h3>
           <p class="pin-role">HEVC / VVC compression pipeline</p>
           <p>A five-stage pipeline takes raw video through analysis, parallel encoding, metric calculation, and result visualization — comparing HEVC against next-gen VVC on compression efficiency (BD-Rate) and quality (PSNR) end to end.</p>
@@ -195,7 +148,7 @@
         </article>
 
         <article class="pin pin-data reveal" tabindex="0">
-          <div class="pin-topline"><span>07</span><span>AWARD · DATA</span></div>
+          <div class="pin-topline"><span>04</span><span>AWARD · DATA</span></div>
           <h3>Semiconductor<br>Yield Analysis</h3>
           <p class="pin-role">Data Station Academy · 2024</p>
           <p>Statistical root-cause analysis of process-stage defects, on a team of mostly semiconductor majors — I wasn't one of them.</p>
@@ -204,6 +157,57 @@
             <p>Used T-tests and correlation analysis to pin down the variables driving defects, then fed them into a Random Forest model as key features.</p>
           </div>
           <ul><li>Python</li><li>pandas</li><li>T-test</li><li>Random Forest</li></ul>
+        </article>
+
+        <article class="pin pin-blue reveal" tabindex="0">
+          <div class="pin-topline"><span>05</span><span>SOLO BUILD</span></div>
+          <h3>Hierar-Do</h3>
+          <p class="pin-role">AI hierarchical to-do service</p>
+          <p>A four-stage pipeline turns monthly goals into weekly milestones and daily actions. Grew out of a weekly to-do habit → a hierarchy prototype → this product.</p>
+          <div class="decision">
+            <span>DESIGN DECISION</span>
+            <p>Restricted LLM calls to parse and decompose; scheduling stays deterministic for lower cost and predictable output.</p>
+          </div>
+          <ul><li>FastAPI</li><li>LangGraph</li><li>Docker</li><li>pytest</li></ul>
+          <a class="pin-link" href="https://github.com/Je-hye/Hierar-Do" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+
+        <article class="pin pin-light reveal" tabindex="0">
+          <div class="pin-topline"><span>06</span><span>AWARD</span></div>
+          <h3>KNU MLA</h3>
+          <p class="pin-role">Team lead + Backend · team of 2</p>
+          <p>A multilingual assistant with internal terminology lookup, LLM fallback, and a self-growing knowledge base.</p>
+          <div class="decision">
+            <span>ARCHITECTURE DECISION</span>
+            <p>Designed a hybrid-search, self-growing knowledge base so the assistant could answer KNU-specific terminology precisely instead of guessing from the base LLM, then built the FastAPI backend and REST API around it.</p>
+          </div>
+          <ul><li>FastAPI</li><li>GPT-4o</li><li>JWT</li><li>SMTP</li></ul>
+          <a class="pin-link" href="https://github.com/Je-hye/knu-mla" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+
+        <article class="pin pin-acid reveal" tabindex="0">
+          <div class="pin-topline"><span>07</span><span>SKILL LIBRARY</span></div>
+          <h3>Custom Agent Skills</h3>
+          <p class="pin-role">Reusable Claude Code skills</p>
+          <p>Skills I built for myself and reuse across projects — not one-off prompts, but versioned, hardened tools with their own spec.</p>
+          <div class="decision">
+            <span>DEV-LOOP</span>
+            <p>Runs a full feature end to end — pre-mortem risk review, spec, TDD implementation, code review, QA, PR — with persisted state so any step can resume after an interruption.</p>
+          </div>
+          <div class="decision">
+            <span>ROLE-BASED-PARALLEL-REVIEW</span>
+            <p>Defines 3–5 independent expert roles and dispatches them as separate parallel reviewers instead of one sequential voice, then surfaces where they actually disagree before synthesizing — a review with no conflicts usually means the roles weren't independent.</p>
+          </div>
+          <div class="decision">
+            <span>LOGIC-REVIEW</span>
+            <p>Audits a plan for internal consistency, hidden assumptions, and the strongest counter-arguments before I commit to it — never a single "looks good."</p>
+          </div>
+          <div class="decision">
+            <span>PAPER-REVIEW</span>
+            <p>Walks a research paper through abstract → method → experiments → limitations against a fixed template, so nothing gets skimmed.</p>
+          </div>
+          <ul><li>Claude Agent SDK</li><li>Skills</li></ul>
+          <a class="pin-link" href="https://github.com/Je-hye/my-agents-skills" target="_blank" rel="noreferrer">View skill library ↗</a>
         </article>
       </div>
     </section>
@@ -390,8 +394,8 @@
     </div>
     <div class="footer-bottom"><span>EUNHYE JEONG © 2026</span><span>DAEGU, SOUTH KOREA</span></div>
   </footer>
-  <script src="./script.js?v=1789915571"></script>
-  <script src="./webgl-field.js?v=1789915571"></script>
-  <script src="./language.js?v=1789915571"></script>
+  <script src="./script.js?v=1789948997"></script>
+  <script src="./webgl-field.js?v=1789948997"></script>
+  <script src="./language.js?v=1789948997"></script>
 </body>
 </html>
