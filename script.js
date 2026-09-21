@@ -89,3 +89,27 @@ if (!reduceMotion && matchMedia("(pointer:fine)").matches) {
     card.addEventListener("pointerleave", () => card.style.transform = "");
   });
 }
+
+const harnessSteps = document.querySelectorAll(".harness-steps > li");
+if (harnessSteps.length) {
+  const stepObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) entry.target.classList.add("is-active");
+    });
+  }, { threshold: 0.45, rootMargin: "0px 0px -8% 0px" });
+  harnessSteps.forEach((li) => stepObserver.observe(li));
+}
+
+document.querySelectorAll('.harness-steps a[href^="#p-"]').forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const id = link.getAttribute("href").slice(1);
+    const target = document.getElementById(id);
+    if (!target) return;
+    event.preventDefault();
+    target.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+    target.classList.remove("flash-highlight");
+    void target.offsetWidth;
+    target.classList.add("flash-highlight");
+    setTimeout(() => target.classList.remove("flash-highlight"), 1300);
+  });
+});
