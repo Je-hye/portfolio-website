@@ -24,7 +24,7 @@
     "I don't rely on": "의지에 기대지 않고,",
     "willpower — I design": "시스템을 설계해서",
     "systems.": "옳은 방향으로 흘러가게 합니다.",
-    "So the right thing happens anyway — not by discipline, but by design. I build habits, workflows, and AI-agent harnesses that make follow-through automatic.": "그래야 의지와 상관없이 옳은 방향으로 흘러갑니다 — 의지가 아니라 구조의 힘으로요. 실행이 저절로 이어지도록 습관과 워크플로우, AI 에이전트 하네스를 만듭니다.",
+    "So the right thing happens anyway — not by discipline, but by design.": "그래야 의지와 상관없이 옳은 방향으로 흘러갑니다 — 의지가 아니라 구조의 힘으로요.",
     "100% J": "100% J",
     "Planner by nature. In my last year of high school, I wanted to study more — and more consistently — than willpower alone could guarantee. So I proposed a system to my tutoring teacher: a group chat where classmates and I tracked study hours together every day. I ended up studying 12–15 hours a day — not by forcing myself, but by design.": "저는 타고난 계획형입니다. 고3 때 의지만으로는 부족하다고 생각해서, 더 꾸준하고 많은 공부량을 위해 과외 선생님께 단톡방을 만들자고 제안했습니다 — 친구들과 매일 공부 시간을 공유하는 구조였죠. 그 결과 억지로 애쓰지 않고도 하루 12~15시간씩 공부하게 됐습니다 — 의지가 아니라 설계로요.",
     "I use AI to improve development workflows and systems. With experience in vision research, I am interested in connecting AI technology to real services and platforms.": "AI를 활용해 개발 워크플로우와 시스템을 개선하는 백엔드·AI 시스템 엔지니어입니다. Vision 연구 경험을 바탕으로 AI 기술을 실제 서비스와 플랫폼에 연결하는 데 관심이 있습니다.",
